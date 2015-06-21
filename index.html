@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>The Global Flow of Refugees</title>
+  <meta name=description content="Visualising UNHCR refugee flows in 2013 and 2014">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" media="all">
+  
+  <script src="circular-migration-plot.min.js"></script>
+</head>
+<body>
+  <div id=container class="container">
+
+  	 <div class="social-wrap">
+		<div class="social">
+			<div class="fb-like" data-send="false" data-layout="button_count" data-width="90px" data-show-faces="false" data-font="lucida grande"></div>
+			<div id="plusone-div"></div>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Thanks Tweeps."></a>
+			<div class="clear"></div>
+		</div>
+	</div>
+  
+   	<header role="banner">
+  		<h1 style="text-align:left">The Global Flow of Refugees</h1>
+		
+		<div class="lead-in">
+		<p>The number of refugees around the world is on the rise. The latest figures released by the UNHCR this week suggest am increase from 2.5 million people in 2013 to 2.9 million in 2014. 
+
+		<p>The surge of people risking their lives to cross the Mediterranean has brought international attention to refugee flows in recent months. Public anxiety about a looming European migration crisis caused by large uncontrolled inflows from Africa and the Middle East is growing. But is Europe the main destination for refugees around the globe?</p>
+
+		<p><a href="http://www.nytimes.com/interactive/2015/06/21/world/map-flow-desperate-migration-refugee-crisis.html?_r=1"  target="_blank">This</a> visualisation published in The New York Times on 20 June 2015 uses traditional flow maps to illustrate the global pattern of refugee movements. We re-designed their visualisation using the same <a href="http://www.unhcr.org/pages/49c3646c4d6.html"  target="_blank">UNHCR</a> data to show the key senders and receivers of refugees in the world in our <a href="http://www.global-migration.info"  target="_blank">circular plot</a>. Click on a segment of the circle to explore refugee flows between individual countries. </p>
+		</div>
+
+		<div class="credits" style="text-align:left">
+        by <a href="http://nikolasander.com"  target="_blank">Nikola Sander</a> and <a href="http://www.metropop.eu"  target="_blank">Ramon Bauer</a>, 21 June 2015 
+		</div>
+	<hr>
+	</header>	
+
+	<div class="wrap">
+		<main role="main">
+		<nav role=navigation>
+		<div id="timeline"></div>
+		</nav>		
+		<div id="chart"></div>
+		</main>
+	</div>
+
+  <script>
+    var labels = {
+		2013: '2013',
+		2014: '2014',
+    }
+
+    CircularMigrationPlot({
+      data: 'refugee-data.json',
+      chart:{
+        element: '#chart',
+        mylayout: {
+          threshold: 1000,
+          labelThreshold: 10000,
+		  colors: ['#B80000','#FF6600','#009900','#4262A3','#333399','#00CCFF']  
+			  }
+      },
+      timeline: {
+        element: '#timeline',
+        formatter: function(d) {
+          return labels[d]
+        }
+      }
+	  });
+  </script>
+ 
+
+
+	<footer role="contentinfo">
+ 		<div class="license">
+		<p>This visualisation has been created by <a href="http://nikolasander.com"  target="_blank">Nikola Sander</a> and <a href="http://www.metropop.eu"  target="_blank">Ramon Bauer</a> using a <a href="https://github.com/jo/circular-migration-plot"  target="_blank">custom d3.js library</a> originally developed by Null2 for <a href="http://www.global-migration.info"  target="_blank">The Global Flow of People</a> and is made available under <a href="http://creativecommons.org/licenses/by/4.0/"  target="_blank">CC BY 4.0</a></p> 
+		<p>Below you find two static graphics of refugee flows between 50 selected countries in 2014 and 2013.</p>
+
+		</div>
+	</footer>
+
+	<hr>
+
+	<div>
+		<p>The Global Flow of Refugees in 2014</p>
+		<img src="refugees-2014.jpg" alt="refugees 2014">
+ 	</div>
+
+ 	<hr>
+
+	<div>
+		<p>The Global Flow of Refugees in 2013</p>
+		<img src="refugees-2013.jpg" alt="refugees 2013">
+ 	</div>
+
+ 	<hr>
+    
+</div>
+	
+	 <div id="fb-root"></div>
+	 <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+		{"parsetags": "explicit"}
+	</script>
+	
+	<script>
+		(function() {
+		function loadScript(d,s,l,id){
+		var js,
+		fjs=d.getElementsByTagName(s)[0],
+		p=/^http:/.test(d.location)?'http':'https';
+		if(!id || !d.getElementById(id)){
+		js=d.createElement(s);
+		js.id=id;
+		js.src=p+'://' + l;
+		fjs.parentNode.insertBefore(js,fjs);
+		}
+		}
+		loadScript(document, 'script', 'connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk');
+		if (typeof gapi === 'object') {
+		gapi.plusone.render("plusone-div", {size: 'medium', annotation: 'bubble', width: '250px'});
+		}
+		loadScript(document, 'script', 'platform.twitter.com/widgets.js', 'twitter-wjs');
+		})();
+	</script>
+	
+</body>
+</html>
