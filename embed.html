@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>The Global Flow of Refugees</title>
+  <meta name=description content="The Global Flow of Refugees">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" media="all">
+
+  <script src="circular-migration-plot.min.js"></script>
+  <style>
+    body {
+      background-color: white;
+      min-width: 460px;
+    }
+    #timeline {
+      position: relative;
+      margin-top: 3ex;
+    }
+    #diagram {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+    footer {
+      position: absolute;
+      bottom: 1ex;
+      right: 0;
+    }
+    @media all and (max-width: 800px) {
+      .year label {
+        padding: 6px 7px 5px;
+        font-size: 11px;
+      }
+      svg {
+        font-size: 15px;
+      }
+      text.region {
+        font-size: 16px;
+      }
+
+    }
+    @media all and (max-width: 580px) {
+      .year label {
+        padding: 3px 6px 4px;
+        font-size: 9px;
+      }
+    }
+    @media all and (max-width: 500px) {
+      .year label {
+        padding: 2px 5px 3px;
+        font-size: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+	<div class="lead-in">
+	   <small><a href="http://www.nytimes.com/interactive/2015/06/21/world/map-flow-desperate-migration-refugee-crisis.html?_r=1"  target="_blank">This</a> visualisation published in The New York Times on 20 June 2015 uses traditional flow maps to illustrate the global pattern of refugee movements. We re-designed their visualisation using the same <a href="http://www.unhcr.org/pages/49c3646c4d6.html"  target="_blank">UNHCR</a> data to show the key senders and receivers of refugees in the world in a circular layout.</small>
+    <small>Click on a segment of the circle to explore refugee flows between individual countries. Only flows of at least 1,000 refugees are shown. Check out <a href="http://www.global-migration.info"  target="_blank">The Global Flow of People</a> to compare refugee flows to overall levels of migration.</small>
+	</div>
+  <nav>
+    <div id="timeline"></div>
+  </nav>
+  <div id="chart"></div>
+
+  <script>
+   var labels = {
+    2014: '2013',
+    2013: '2014',
+    }
+
+    CircularMigrationPlot({
+      data: 'refugee-data.json',
+      chart:{
+        element: '#chart',
+        mylayout: {
+          threshold: 1000,
+          labelThreshold: 10000,
+		  colors: ['#B80000','#FF6600','#009900','#4262A3','#333399','#00CCFF']  
+			  }
+      },
+      timeline: {
+        element: '#timeline',
+        formatter: function(d) {
+          return labels[d]
+        }
+      }
+	  });
+  </script>
+	<hr>
+    
+ 	<footer>
+ 		<div class="license">
+		<small>
+		This visualisation has been created by <a href="http://nikolasander.com"  target="_blank">Nikola Sander</a> and <a href="http://www.metropop.eu"  target="_blank">Ramon Bauer</a> using a <a href="https://github.com/jo/circular-migration-plot"  target="_blank">custom d3.js library</a> originally developed by Null2 for <a href="http://www.global-migration.info"  target="_blank">The Global Flow of People</a> and is made available under <a href="http://creativecommons.org/licenses/by/4.0/"  target="_blank">CC BY 4.0</a>
+		</small>
+		</div>
+	</footer>
+	
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64372038-1', 'auto');
+  ga('send', 'pageview');
+</script>
+	
+</body>
+</html>
