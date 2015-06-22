@@ -8,10 +8,11 @@
   <link href="style.css" rel="stylesheet" media="all">
 
   <script src="circular-migration-plot.min.js"></script>
-  <style>
+   <style>
     body {
       background-color: white;
-      min-width: 460px;
+      text-align: center;
+      min-width: 200px;
     }
     #timeline {
       position: relative;
@@ -19,17 +20,17 @@
     }
     #diagram {
       margin: 0 auto;
-      max-width: 800px;
+      max-width: 620px;
     }
     footer {
       position: absolute;
       bottom: 1ex;
       right: 0;
     }
-    @media all and (max-width: 800px) {
+    @media all and (max-width: 620px) {
       .year label {
-        padding: 6px 7px 5px;
-        font-size: 11px;
+        padding: 8px 10px 5px;
+        font-size: 13px;
       }
       svg {
         font-size: 15px;
@@ -37,27 +38,25 @@
       text.region {
         font-size: 16px;
       }
-
     }
-    @media all and (max-width: 580px) {
+    @media all and (max-width: 550px) {
       .year label {
-        padding: 3px 6px 4px;
+        font-size: 11px;
+      }
+    }
+    @media all and (max-width: 450px) {
+      .year label {
         font-size: 9px;
       }
-    }
-    @media all and (max-width: 500px) {
-      .year label {
-        padding: 2px 5px 3px;
-        font-size: 8px;
-      }
+      
     }
   </style>
 </head>
 <body>
-	<div class="lead-in">
-	   <small> <a href="http://nikolasander.com"  target="_blank">Nikola Sander</a> and <a href="http://www.metropop.eu"  target="_blank">Ramon Bauer</a> re-designed <a href="http://www.nytimes.com/interactive/2015/06/21/world/map-flow-desperate-migration-refugee-crisis.html?_r=1"  target="_blank">this</a> visualisation by the New York Times using <a href="http://www.unhcr.org/pages/49c3646c4d6.html"  target="_blank">UNHCR</a> data to show the key senders and receivers of refugees in the world.</small>
-    <small>Click on a segment of the circle to explore refugee flows between individual countries. Only flows of at least 1,000 refugees are shown. Check out <a href="http://www.global-migration.info"  target="_blank">The Global Flow of People</a> to compare refugee flows to overall levels of migration.</small>
-	</div>
+
+  <h2>The Global Flow of Refugees</h2>
+  <small><a href="http://global-refugees.info/" target="_blank">global-refugees.info</a></small>
+ 
   <nav>
     <div id="timeline"></div>
   </nav>
@@ -87,13 +86,7 @@
       }
 	  });
   </script>
-    
- 	<footer>
- 		<div class="license">
-		<a href="http://global-refugees.info"  target="_blank">global-refugees.info</a>
-		</div>
-	</footer>
-	
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
