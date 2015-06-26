@@ -1,0 +1,779 @@
+originregion_id,originregion_name,destinationregion_id,destinationregion_name,origin_iso,origin_name,destination_iso,destination_name,countryflow_2000,countryflow_2001,countryflow_2002,countryflow_2003,countryflow_2004,countryflow_2010,countryflow_2011,countryflow_2012,countryflow_2013,countryflow_2014,regionflow_2000,regionflow_2001,regionflow_2002,regionflow_2003,regionflow_2004,regionflow_2010,regionflow_2011,regionflow_2012,regionflow_2013,regionflow_2014
+1,Vorarlberg,1,Vorarlberg,11,Vorarlberg inner,11,Vorarlberg inner,9611,2058,2852,1833,614,10700,2197,3188,2152,898,10999,2389,3284,2063,673,12170,2458,3614,2443,1015
+1,Vorarlberg,1,Vorarlberg,11,Vorarlberg inner,12,Vorarlberg outer,638,147,201,100,29,686,101,212,135,61,10999,2389,3284,2063,673,12170,2458,3614,2443,1015
+1,Vorarlberg,2,Tyrol,11,Vorarlberg inner,21,Tyrol inner,29,4,6,11,1,18,6,4,2,3,29,4,6,11,1,18,6,4,2,3
+1,Vorarlberg,2,Tyrol,11,Vorarlberg inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,29,4,6,11,1,18,6,4,2,3
+1,Vorarlberg,3,Salzburg,11,Vorarlberg inner,31,Salzburg inner,2,1,1,0,0,2,0,2,0,0,2,1,1,0,0,2,0,2,0,0
+1,Vorarlberg,4,Upper Austria,11,Vorarlberg inner,41,Upper Austria inner,30,8,9,7,0,39,6,10,9,4,35,9,12,8,0,44,7,12,9,4
+1,Vorarlberg,4,Upper Austria,11,Vorarlberg inner,42,Upper Austria outer,5,1,3,1,0,1,1,0,0,0,35,9,12,8,0,44,7,12,9,4
+1,Vorarlberg,5,Lower Austria,11,Vorarlberg inner,51,Lower Austria inner,5,2,2,0,1,28,2,8,6,3,10,4,3,1,1,40,3,12,10,3
+1,Vorarlberg,5,Lower Austria,11,Vorarlberg inner,52,Lower Austria outer,5,2,1,1,0,9,0,3,4,0,10,4,3,1,1,40,3,12,10,3
+1,Vorarlberg,7,Burgenland,11,Vorarlberg inner,71,Burgenland inner,7,3,1,1,0,6,1,1,1,2,7,3,1,1,0,9,2,2,2,2
+1,Vorarlberg,7,Burgenland,11,Vorarlberg inner,72,Burgenland outer,0,0,0,0,0,3,1,1,1,0,7,3,1,1,0,9,2,2,2,2
+1,Vorarlberg,8,Styria,11,Vorarlberg inner,81,Styria inner,37,4,10,11,2,52,14,6,13,5,48,5,12,17,2,58,14,7,14,5
+1,Vorarlberg,8,Styria,11,Vorarlberg inner,82,Styria outer,9,1,2,5,0,2,0,0,1,0,48,5,12,17,2,58,14,7,14,5
+1,Vorarlberg,9,Carinthia,11,Vorarlberg inner,91,Carinthia inner,42,3,9,8,7,19,2,3,5,2,51,3,11,10,10,38,3,7,12,4
+1,Vorarlberg,9,Carinthia,11,Vorarlberg inner,92,Carinthia outer,6,0,2,2,1,18,0,4,7,2,51,3,11,10,10,38,3,7,12,4
+1,Vorarlberg,21,Vienna,11,Vorarlberg inner,211,Vienna inner,534,143,259,66,19,825,367,270,83,29,602,156,286,78,22,898,392,291,96,34
+1,Vorarlberg,21,Vienna,11,Vorarlberg inner,212,Vienna outer,36,5,12,8,2,33,6,9,8,4,602,156,286,78,22,898,392,291,96,34
+1,Vorarlberg,22,Graz,11,Vorarlberg inner,221,Graz inner,78,24,36,5,5,121,43,39,13,11,107,30,45,9,7,142,51,44,16,12
+1,Vorarlberg,22,Graz,11,Vorarlberg inner,222,Graz outer,18,2,6,3,2,12,3,2,3,1,107,30,45,9,7,142,51,44,16,12
+1,Vorarlberg,23,Linz,11,Vorarlberg inner,231,Linz inner,31,7,10,6,3,31,13,10,3,0,39,11,11,8,4,53,16,18,8,1
+1,Vorarlberg,23,Linz,11,Vorarlberg inner,232,Linz outer,6,2,1,2,1,19,3,6,4,1,39,11,11,8,4,53,16,18,8,1
+1,Vorarlberg,24,Salzburg,11,Vorarlberg inner,241,Salzburg inner,49,7,20,8,5,63,18,18,12,3,57,8,23,9,6,75,18,22,16,4
+1,Vorarlberg,24,Salzburg,11,Vorarlberg inner,242,Salzburg outer,4,1,2,1,0,9,0,3,3,1,57,8,23,9,6,75,18,22,16,4
+1,Vorarlberg,25,Innsbruck,11,Vorarlberg inner,251,Innsbruck inner,216,67,104,19,7,460,337,78,22,9,242,75,112,24,7,513,372,88,24,13
+1,Vorarlberg,25,Innsbruck,11,Vorarlberg inner,252,Innsbruck outer,11,0,3,4,0,15,3,5,1,4,242,75,112,24,7,513,372,88,24,13
+1,Vorarlberg,26,Klagenfurt,11,Vorarlberg inner,261,Klagenfurt inner,23,7,9,1,1,17,5,2,3,0,32,7,11,6,3,22,6,4,4,1
+1,Vorarlberg,26,Klagenfurt,11,Vorarlberg inner,262,Klagenfurt outer,9,0,2,5,2,4,1,1,1,1,32,7,11,6,3,22,6,4,4,1
+1,Vorarlberg,30,rural rest,11,Vorarlberg inner,30,rural rest,1237,277,348,226,106,1160,217,319,226,128,1426,307,403,257,113,1338,249,373,254,152
+1,Vorarlberg,1,Vorarlberg,12,Vorarlberg outer,11,Vorarlberg inner,675,165,204,122,28,695,147,191,139,52,10999,2389,3284,2063,673,12170,2458,3614,2443,1015
+1,Vorarlberg,1,Vorarlberg,12,Vorarlberg outer,12,Vorarlberg outer,75,19,27,8,2,89,13,23,17,4,10999,2389,3284,2063,673,12170,2458,3614,2443,1015
+1,Vorarlberg,2,Tyrol,12,Vorarlberg outer,21,Tyrol inner,0,0,0,0,0,0,0,0,0,0,29,4,6,11,1,18,6,4,2,3
+1,Vorarlberg,3,Salzburg,12,Vorarlberg outer,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,2,0,2,0,0
+1,Vorarlberg,4,Upper Austria,12,Vorarlberg outer,41,Upper Austria inner,0,0,0,0,0,4,0,2,0,0,35,9,12,8,0,44,7,12,9,4
+1,Vorarlberg,4,Upper Austria,12,Vorarlberg outer,42,Upper Austria outer,0,0,0,0,0,0,0,0,0,0,35,9,12,8,0,44,7,12,9,4
+1,Vorarlberg,5,Lower Austria,12,Vorarlberg outer,51,Lower Austria inner,0,0,0,0,0,2,0,1,0,0,10,4,3,1,1,40,3,12,10,3
+1,Vorarlberg,5,Lower Austria,12,Vorarlberg outer,52,Lower Austria outer,0,0,0,0,0,1,1,0,0,0,10,4,3,1,1,40,3,12,10,3
+1,Vorarlberg,7,Burgenland,12,Vorarlberg outer,71,Burgenland inner,0,0,0,0,0,0,0,0,0,0,7,3,1,1,0,9,2,2,2,2
+1,Vorarlberg,8,Styria,12,Vorarlberg outer,81,Styria inner,0,0,0,0,0,4,0,1,0,0,48,5,12,17,2,58,14,7,14,5
+1,Vorarlberg,8,Styria,12,Vorarlberg outer,82,Styria outer,2,0,0,1,0,0,0,0,0,0,48,5,12,17,2,58,14,7,14,5
+1,Vorarlberg,9,Carinthia,12,Vorarlberg outer,91,Carinthia inner,0,0,0,0,0,1,1,0,0,0,51,3,11,10,10,38,3,7,12,4
+1,Vorarlberg,9,Carinthia,12,Vorarlberg outer,92,Carinthia outer,3,0,0,0,2,0,0,0,0,0,51,3,11,10,10,38,3,7,12,4
+1,Vorarlberg,21,Vienna,12,Vorarlberg outer,211,Vienna inner,27,8,15,2,1,40,19,12,5,1,602,156,286,78,22,898,392,291,96,34
+1,Vorarlberg,21,Vienna,12,Vorarlberg outer,212,Vienna outer,5,0,0,2,0,0,0,0,0,0,602,156,286,78,22,898,392,291,96,34
+1,Vorarlberg,22,Graz,12,Vorarlberg outer,221,Graz inner,11,4,3,1,0,9,5,3,0,0,107,30,45,9,7,142,51,44,16,12
+1,Vorarlberg,22,Graz,12,Vorarlberg outer,222,Graz outer,0,0,0,0,0,0,0,0,0,0,107,30,45,9,7,142,51,44,16,12
+1,Vorarlberg,23,Linz,12,Vorarlberg outer,231,Linz inner,1,1,0,0,0,2,0,1,1,0,39,11,11,8,4,53,16,18,8,1
+1,Vorarlberg,23,Linz,12,Vorarlberg outer,232,Linz outer,1,1,0,0,0,1,0,1,0,0,39,11,11,8,4,53,16,18,8,1
+1,Vorarlberg,24,Salzburg,12,Vorarlberg outer,241,Salzburg inner,4,0,1,0,1,3,0,1,1,0,57,8,23,9,6,75,18,22,16,4
+1,Vorarlberg,24,Salzburg,12,Vorarlberg outer,242,Salzburg outer,0,0,0,0,0,0,0,0,0,0,57,8,23,9,6,75,18,22,16,4
+1,Vorarlberg,25,Innsbruck,12,Vorarlberg outer,251,Innsbruck inner,14,7,5,1,0,38,32,5,1,0,242,75,112,24,7,513,372,88,24,13
+1,Vorarlberg,25,Innsbruck,12,Vorarlberg outer,252,Innsbruck outer,1,1,0,0,0,0,0,0,0,0,242,75,112,24,7,513,372,88,24,13
+1,Vorarlberg,26,Klagenfurt,12,Vorarlberg outer,261,Klagenfurt inner,0,0,0,0,0,0,0,0,0,0,32,7,11,6,3,22,6,4,4,1
+1,Vorarlberg,26,Klagenfurt,12,Vorarlberg outer,262,Klagenfurt outer,0,0,0,0,0,1,0,1,0,0,32,7,11,6,3,22,6,4,4,1
+1,Vorarlberg,30,rural rest,12,Vorarlberg outer,30,rural rest,189,30,55,31,7,178,32,54,28,24,1426,307,403,257,113,1338,249,373,254,152
+2,Tyrol,1,Vorarlberg,21,Tyrol inner,11,Vorarlberg inner,30,7,14,4,2,30,9,9,4,3,37,8,15,8,3,34,12,10,4,3
+2,Tyrol,1,Vorarlberg,21,Tyrol inner,12,Vorarlberg outer,1,0,1,0,0,1,0,1,0,0,37,8,15,8,3,34,12,10,4,3
+2,Tyrol,2,Tyrol,21,Tyrol inner,21,Tyrol inner,1152,230,306,224,61,1221,233,345,246,112,1449,300,403,274,76,1598,312,442,312,158
+2,Tyrol,2,Tyrol,21,Tyrol inner,22,Tyrol outer,150,29,50,26,8,161,27,48,34,23,1449,300,403,274,76,1598,312,442,312,158
+2,Tyrol,3,Salzburg,21,Tyrol inner,31,Salzburg inner,2,1,0,0,1,5,0,3,0,0,2,1,0,0,1,5,0,3,0,0
+2,Tyrol,4,Upper Austria,21,Tyrol inner,41,Upper Austria inner,20,3,7,5,0,27,1,11,6,1,22,4,8,5,0,32,3,12,8,1
+2,Tyrol,4,Upper Austria,21,Tyrol inner,42,Upper Austria outer,1,0,1,0,0,0,0,0,0,0,22,4,8,5,0,32,3,12,8,1
+2,Tyrol,5,Lower Austria,21,Tyrol inner,51,Lower Austria inner,1,0,1,0,0,4,3,1,0,0,3,0,2,0,0,12,4,4,0,3
+2,Tyrol,5,Lower Austria,21,Tyrol inner,52,Lower Austria outer,2,0,1,0,0,6,0,2,0,3,3,0,2,0,0,12,4,4,0,3
+2,Tyrol,7,Burgenland,21,Tyrol inner,71,Burgenland inner,2,0,0,1,0,3,1,0,0,2,2,0,0,1,0,3,1,0,0,2
+2,Tyrol,7,Burgenland,21,Tyrol inner,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,3,1,0,0,2
+2,Tyrol,8,Styria,21,Tyrol inner,81,Styria inner,9,0,2,3,1,7,2,1,3,1,12,1,3,4,1,10,3,3,3,1
+2,Tyrol,8,Styria,21,Tyrol inner,82,Styria outer,2,0,1,1,0,3,1,2,0,0,12,1,3,4,1,10,3,3,3,1
+2,Tyrol,9,Carinthia,21,Tyrol inner,91,Carinthia inner,11,3,4,4,0,18,6,4,4,0,16,4,7,5,0,43,9,10,9,2
+2,Tyrol,9,Carinthia,21,Tyrol inner,92,Carinthia outer,5,1,3,1,0,21,3,6,2,1,16,4,7,5,0,43,9,10,9,2
+2,Tyrol,21,Vienna,21,Tyrol inner,211,Vienna inner,136,43,58,17,4,209,75,50,37,7,160,50,69,22,4,238,83,56,42,10
+2,Tyrol,21,Vienna,21,Tyrol inner,212,Vienna outer,13,1,7,4,0,19,3,3,4,2,160,50,69,22,4,238,83,56,42,10
+2,Tyrol,22,Graz,21,Tyrol inner,221,Graz inner,26,10,7,3,1,76,41,24,5,6,34,12,12,3,1,89,45,29,6,7
+2,Tyrol,22,Graz,21,Tyrol inner,222,Graz outer,3,0,3,0,0,2,0,2,0,0,34,12,12,3,1,89,45,29,6,7
+2,Tyrol,23,Linz,21,Tyrol inner,231,Linz inner,13,5,3,3,0,19,3,8,5,1,19,7,5,4,0,29,6,13,6,1
+2,Tyrol,23,Linz,21,Tyrol inner,232,Linz outer,6,2,2,1,0,9,3,4,1,0,19,7,5,4,0,29,6,13,6,1
+2,Tyrol,24,Salzburg,21,Tyrol inner,241,Salzburg inner,24,5,13,3,3,41,9,18,9,2,39,10,17,4,5,52,11,20,13,3
+2,Tyrol,24,Salzburg,21,Tyrol inner,242,Salzburg outer,10,2,4,1,0,9,1,1,4,1,39,10,17,4,5,52,11,20,13,3
+2,Tyrol,25,Innsbruck,21,Tyrol inner,251,Innsbruck inner,345,94,108,61,17,443,157,128,69,16,434,118,129,80,23,563,178,156,103,25
+2,Tyrol,25,Innsbruck,21,Tyrol inner,252,Innsbruck outer,65,16,15,17,3,85,13,19,27,2,434,118,129,80,23,563,178,156,103,25
+2,Tyrol,26,Klagenfurt,21,Tyrol inner,261,Klagenfurt inner,19,1,4,9,1,27,10,6,4,1,24,3,5,10,1,31,12,7,4,2
+2,Tyrol,26,Klagenfurt,21,Tyrol inner,262,Klagenfurt outer,4,2,0,1,0,2,0,1,0,1,24,3,5,10,1,31,12,7,4,2
+2,Tyrol,30,rural rest,21,Tyrol inner,30,rural rest,889,195,266,163,52,1090,237,315,220,99,1017,223,304,186,60,1235,265,361,246,112
+2,Tyrol,1,Vorarlberg,22,Tyrol outer,11,Vorarlberg inner,6,1,0,4,1,2,2,0,0,0,37,8,15,8,3,34,12,10,4,3
+2,Tyrol,1,Vorarlberg,22,Tyrol outer,12,Vorarlberg outer,0,0,0,0,0,1,1,0,0,0,37,8,15,8,3,34,12,10,4,3
+2,Tyrol,2,Tyrol,22,Tyrol outer,21,Tyrol inner,141,39,44,24,7,213,51,49,32,21,1449,300,403,274,76,1598,312,442,312,158
+2,Tyrol,2,Tyrol,22,Tyrol outer,22,Tyrol outer,6,2,3,0,0,3,1,0,0,2,1449,300,403,274,76,1598,312,442,312,158
+2,Tyrol,4,Upper Austria,22,Tyrol outer,41,Upper Austria inner,1,1,0,0,0,4,2,1,1,0,22,4,8,5,0,32,3,12,8,1
+2,Tyrol,4,Upper Austria,22,Tyrol outer,42,Upper Austria outer,0,0,0,0,0,1,0,0,1,0,22,4,8,5,0,32,3,12,8,1
+2,Tyrol,5,Lower Austria,22,Tyrol outer,51,Lower Austria inner,0,0,0,0,0,1,1,0,0,0,3,0,2,0,0,12,4,4,0,3
+2,Tyrol,5,Lower Austria,22,Tyrol outer,52,Lower Austria outer,0,0,0,0,0,1,0,1,0,0,3,0,2,0,0,12,4,4,0,3
+2,Tyrol,7,Burgenland,22,Tyrol outer,71,Burgenland inner,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,3,1,0,0,2
+2,Tyrol,8,Styria,22,Tyrol outer,81,Styria inner,1,1,0,0,0,0,0,0,0,0,12,1,3,4,1,10,3,3,3,1
+2,Tyrol,8,Styria,22,Tyrol outer,82,Styria outer,0,0,0,0,0,0,0,0,0,0,12,1,3,4,1,10,3,3,3,1
+2,Tyrol,9,Carinthia,22,Tyrol outer,91,Carinthia inner,0,0,0,0,0,3,0,0,2,1,16,4,7,5,0,43,9,10,9,2
+2,Tyrol,9,Carinthia,22,Tyrol outer,92,Carinthia outer,0,0,0,0,0,1,0,0,1,0,16,4,7,5,0,43,9,10,9,2
+2,Tyrol,21,Vienna,22,Tyrol outer,211,Vienna inner,11,6,4,1,0,8,4,3,0,1,160,50,69,22,4,238,83,56,42,10
+2,Tyrol,21,Vienna,22,Tyrol outer,212,Vienna outer,0,0,0,0,0,2,1,0,1,0,160,50,69,22,4,238,83,56,42,10
+2,Tyrol,22,Graz,22,Tyrol outer,221,Graz inner,5,2,2,0,0,7,4,3,0,0,34,12,12,3,1,89,45,29,6,7
+2,Tyrol,22,Graz,22,Tyrol outer,222,Graz outer,0,0,0,0,0,4,0,0,1,1,34,12,12,3,1,89,45,29,6,7
+2,Tyrol,23,Linz,22,Tyrol outer,231,Linz inner,0,0,0,0,0,1,0,1,0,0,19,7,5,4,0,29,6,13,6,1
+2,Tyrol,23,Linz,22,Tyrol outer,232,Linz outer,0,0,0,0,0,0,0,0,0,0,19,7,5,4,0,29,6,13,6,1
+2,Tyrol,24,Salzburg,22,Tyrol outer,241,Salzburg inner,2,2,0,0,0,2,1,1,0,0,39,10,17,4,5,52,11,20,13,3
+2,Tyrol,24,Salzburg,22,Tyrol outer,242,Salzburg outer,3,1,0,0,2,0,0,0,0,0,39,10,17,4,5,52,11,20,13,3
+2,Tyrol,25,Innsbruck,22,Tyrol outer,251,Innsbruck inner,20,6,6,2,3,31,7,8,5,7,434,118,129,80,23,563,178,156,103,25
+2,Tyrol,25,Innsbruck,22,Tyrol outer,252,Innsbruck outer,4,2,0,0,0,4,1,1,2,0,434,118,129,80,23,563,178,156,103,25
+2,Tyrol,26,Klagenfurt,22,Tyrol outer,261,Klagenfurt inner,1,0,1,0,0,0,0,0,0,0,24,3,5,10,1,31,12,7,4,2
+2,Tyrol,26,Klagenfurt,22,Tyrol outer,262,Klagenfurt outer,0,0,0,0,0,2,2,0,0,0,24,3,5,10,1,31,12,7,4,2
+2,Tyrol,30,rural rest,22,Tyrol outer,30,rural rest,128,28,38,23,8,145,28,46,26,13,1017,223,304,186,60,1235,265,361,246,112
+3,Salzburg,1,Vorarlberg,31,Salzburg inner,11,Vorarlberg inner,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,2,0,2,0,0
+3,Salzburg,1,Vorarlberg,31,Salzburg inner,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0
+3,Salzburg,2,Tyrol,31,Salzburg inner,21,Tyrol inner,3,2,0,1,0,5,1,2,0,0,3,2,0,1,0,5,1,2,0,0
+3,Salzburg,2,Tyrol,31,Salzburg inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,3,2,0,1,0,5,1,2,0,0
+3,Salzburg,3,Salzburg,31,Salzburg inner,31,Salzburg inner,86,32,27,10,2,128,34,42,25,10,86,32,27,10,2,128,34,42,25,10
+3,Salzburg,4,Upper Austria,31,Salzburg inner,41,Upper Austria inner,15,0,6,5,0,14,3,4,1,1,17,0,7,5,1,16,3,4,3,1
+3,Salzburg,4,Upper Austria,31,Salzburg inner,42,Upper Austria outer,2,0,1,0,1,2,0,0,2,0,17,0,7,5,1,16,3,4,3,1
+3,Salzburg,5,Lower Austria,31,Salzburg inner,51,Lower Austria inner,2,0,1,1,0,1,1,0,0,0,2,0,1,1,0,1,1,0,0,0
+3,Salzburg,5,Lower Austria,31,Salzburg inner,52,Lower Austria outer,0,0,0,0,0,0,0,0,0,0,2,0,1,1,0,1,1,0,0,0
+3,Salzburg,7,Burgenland,31,Salzburg inner,71,Burgenland inner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Salzburg,7,Burgenland,31,Salzburg inner,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Salzburg,8,Styria,31,Salzburg inner,81,Styria inner,3,0,1,2,0,10,3,2,2,2,3,0,1,2,0,11,4,2,2,2
+3,Salzburg,8,Styria,31,Salzburg inner,82,Styria outer,0,0,0,0,0,1,1,0,0,0,3,0,1,2,0,11,4,2,2,2
+3,Salzburg,9,Carinthia,31,Salzburg inner,91,Carinthia inner,16,7,7,0,1,6,0,4,0,1,17,7,7,1,1,6,0,4,0,1
+3,Salzburg,9,Carinthia,31,Salzburg inner,92,Carinthia outer,1,0,0,1,0,0,0,0,0,0,17,7,7,1,1,6,0,4,0,1
+3,Salzburg,21,Vienna,31,Salzburg inner,211,Vienna inner,49,12,20,1,1,84,28,17,14,7,55,14,21,3,1,89,29,19,14,7
+3,Salzburg,21,Vienna,31,Salzburg inner,212,Vienna outer,6,2,1,2,0,5,1,2,0,0,55,14,21,3,1,89,29,19,14,7
+3,Salzburg,22,Graz,31,Salzburg inner,221,Graz inner,7,3,2,2,0,20,11,3,1,3,10,4,3,2,1,24,12,4,2,3
+3,Salzburg,22,Graz,31,Salzburg inner,222,Graz outer,3,1,1,0,1,4,1,1,1,0,10,4,3,2,1,24,12,4,2,3
+3,Salzburg,23,Linz,31,Salzburg inner,231,Linz inner,6,2,1,1,0,15,2,6,1,1,10,3,3,1,0,16,3,6,1,1
+3,Salzburg,23,Linz,31,Salzburg inner,232,Linz outer,4,1,2,0,0,1,1,0,0,0,10,3,3,1,0,16,3,6,1,1
+3,Salzburg,24,Salzburg,31,Salzburg inner,241,Salzburg inner,119,36,28,24,7,90,22,35,19,6,146,41,36,31,11,146,29,59,29,9
+3,Salzburg,24,Salzburg,31,Salzburg inner,242,Salzburg outer,27,5,8,7,4,56,7,24,10,3,146,41,36,31,11,146,29,59,29,9
+3,Salzburg,25,Innsbruck,31,Salzburg inner,251,Innsbruck inner,5,2,0,0,1,14,9,3,1,1,5,2,0,0,1,18,10,3,2,1
+3,Salzburg,25,Innsbruck,31,Salzburg inner,252,Innsbruck outer,0,0,0,0,0,4,1,0,1,0,5,2,0,0,1,18,10,3,2,1
+3,Salzburg,26,Klagenfurt,31,Salzburg inner,261,Klagenfurt inner,0,0,0,0,0,7,0,1,1,3,1,0,0,1,0,10,0,1,2,3
+3,Salzburg,26,Klagenfurt,31,Salzburg inner,262,Klagenfurt outer,1,0,0,1,0,3,0,0,1,0,1,0,0,1,0,10,0,1,2,3
+3,Salzburg,30,rural rest,31,Salzburg inner,30,rural rest,363,72,101,66,17,492,97,135,94,33,363,72,101,66,17,492,97,135,94,33
+4,Upper Austria,1,Vorarlberg,41,Upper Austria inner,11,Vorarlberg inner,31,7,9,10,2,22,5,6,7,2,39,9,13,11,2,38,5,11,12,3
+4,Upper Austria,1,Vorarlberg,41,Upper Austria inner,12,Vorarlberg outer,1,1,0,0,0,0,0,0,0,0,39,9,13,11,2,38,5,11,12,3
+4,Upper Austria,2,Tyrol,41,Upper Austria inner,21,Tyrol inner,8,1,3,3,0,13,5,2,3,1,13,1,5,3,1,20,5,4,5,1
+4,Upper Austria,2,Tyrol,41,Upper Austria inner,22,Tyrol outer,4,0,2,0,0,5,0,2,2,0,13,1,5,3,1,20,5,4,5,1
+4,Upper Austria,3,Salzburg,41,Upper Austria inner,31,Salzburg inner,8,2,4,1,0,4,2,1,0,0,8,2,4,1,0,5,3,1,0,0
+4,Upper Austria,4,Upper Austria,41,Upper Austria inner,41,Upper Austria inner,3875,778,1066,807,240,4330,916,1192,860,344,6924,1405,1916,1378,405,7603,1608,2154,1446,594
+4,Upper Austria,4,Upper Austria,41,Upper Austria inner,42,Upper Austria outer,1281,234,365,266,70,1441,267,468,279,110,6924,1405,1916,1378,405,7603,1608,2154,1446,594
+4,Upper Austria,5,Lower Austria,41,Upper Austria inner,51,Lower Austria inner,41,13,10,9,6,91,21,31,13,9,534,94,130,125,34,539,128,165,93,49
+4,Upper Austria,5,Lower Austria,41,Upper Austria inner,52,Lower Austria outer,481,78,116,115,28,430,101,127,77,38,534,94,130,125,34,539,128,165,93,49
+4,Upper Austria,7,Burgenland,41,Upper Austria inner,71,Burgenland inner,15,2,6,1,0,24,7,6,7,0,18,3,6,2,0,26,8,6,8,0
+4,Upper Austria,7,Burgenland,41,Upper Austria inner,72,Burgenland outer,0,0,0,0,0,1,1,0,0,0,18,3,6,2,0,26,8,6,8,0
+4,Upper Austria,8,Styria,41,Upper Austria inner,81,Styria inner,18,3,7,5,0,24,8,10,3,2,33,5,17,5,0,37,16,13,4,2
+4,Upper Austria,8,Styria,41,Upper Austria inner,82,Styria outer,2,0,2,0,0,7,3,2,1,0,33,5,17,5,0,37,16,13,4,2
+4,Upper Austria,9,Carinthia,41,Upper Austria inner,91,Carinthia inner,13,1,3,3,3,16,4,7,1,2,18,3,5,4,3,32,9,10,4,4
+4,Upper Austria,9,Carinthia,41,Upper Austria inner,92,Carinthia outer,4,2,1,1,0,8,3,2,1,1,18,3,5,4,3,32,9,10,4,4
+4,Upper Austria,21,Vienna,41,Upper Austria inner,211,Vienna inner,788,240,314,125,36,1181,508,374,128,40,985,298,387,156,45,1500,645,459,168,54
+4,Upper Austria,21,Vienna,41,Upper Austria inner,212,Vienna outer,58,11,19,18,2,88,17,22,18,6,985,298,387,156,45,1500,645,459,168,54
+4,Upper Austria,22,Graz,41,Upper Austria inner,221,Graz inner,106,25,30,26,7,183,94,44,25,7,147,42,44,28,9,228,123,52,28,12
+4,Upper Austria,22,Graz,41,Upper Austria inner,222,Graz outer,9,5,1,1,2,12,4,3,2,3,147,42,44,28,9,228,123,52,28,12
+4,Upper Austria,23,Linz,41,Upper Austria inner,231,Linz inner,738,219,246,137,31,1008,263,326,182,70,1255,342,421,214,54,1711,444,534,314,139
+4,Upper Austria,23,Linz,41,Upper Austria inner,232,Linz outer,287,64,94,46,17,379,80,106,88,36,1255,342,421,214,54,1711,444,534,314,139
+4,Upper Austria,24,Salzburg,41,Upper Austria inner,241,Salzburg inner,245,53,93,35,19,205,61,69,33,19,344,79,127,53,20,339,88,115,57,32
+4,Upper Austria,24,Salzburg,41,Upper Austria inner,242,Salzburg outer,41,13,10,7,0,61,9,19,15,5,344,79,127,53,20,339,88,115,57,32
+4,Upper Austria,25,Innsbruck,41,Upper Austria inner,251,Innsbruck inner,66,24,25,8,5,75,40,18,10,3,90,32,37,9,5,111,57,32,11,4
+4,Upper Austria,25,Innsbruck,41,Upper Austria inner,252,Innsbruck outer,4,1,0,0,0,10,1,6,0,0,90,32,37,9,5,111,57,32,11,4
+4,Upper Austria,26,Klagenfurt,41,Upper Austria inner,261,Klagenfurt inner,31,8,10,6,4,37,8,13,7,3,43,10,16,6,5,43,10,13,9,4
+4,Upper Austria,26,Klagenfurt,41,Upper Austria inner,262,Klagenfurt outer,5,1,1,0,1,3,0,0,2,1,43,10,16,6,5,43,10,13,9,4
+4,Upper Austria,30,rural rest,41,Upper Austria inner,30,rural rest,2392,531,653,431,166,2986,621,892,546,250,3362,758,910,590,211,4152,858,1219,770,355
+4,Upper Austria,1,Vorarlberg,42,Upper Austria outer,11,Vorarlberg inner,7,1,4,1,0,16,0,5,5,1,39,9,13,11,2,38,5,11,12,3
+4,Upper Austria,1,Vorarlberg,42,Upper Austria outer,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,39,9,13,11,2,38,5,11,12,3
+4,Upper Austria,2,Tyrol,42,Upper Austria outer,21,Tyrol inner,1,0,0,0,1,0,0,0,0,0,13,1,5,3,1,20,5,4,5,1
+4,Upper Austria,2,Tyrol,42,Upper Austria outer,22,Tyrol outer,0,0,0,0,0,2,0,0,0,0,13,1,5,3,1,20,5,4,5,1
+4,Upper Austria,3,Salzburg,42,Upper Austria outer,31,Salzburg inner,0,0,0,0,0,1,1,0,0,0,8,2,4,1,0,5,3,1,0,0
+4,Upper Austria,4,Upper Austria,42,Upper Austria outer,41,Upper Austria inner,1284,294,347,226,78,1330,304,350,230,98,6924,1405,1916,1378,405,7603,1608,2154,1446,594
+4,Upper Austria,4,Upper Austria,42,Upper Austria outer,42,Upper Austria outer,484,99,138,79,17,502,121,144,77,42,6924,1405,1916,1378,405,7603,1608,2154,1446,594
+4,Upper Austria,5,Lower Austria,42,Upper Austria outer,51,Lower Austria inner,4,0,2,1,0,6,2,2,1,1,534,94,130,125,34,539,128,165,93,49
+4,Upper Austria,5,Lower Austria,42,Upper Austria outer,52,Lower Austria outer,8,3,2,0,0,12,4,5,2,1,534,94,130,125,34,539,128,165,93,49
+4,Upper Austria,7,Burgenland,42,Upper Austria outer,71,Burgenland inner,2,1,0,1,0,0,0,0,0,0,18,3,6,2,0,26,8,6,8,0
+4,Upper Austria,7,Burgenland,42,Upper Austria outer,72,Burgenland outer,1,0,0,0,0,1,0,0,1,0,18,3,6,2,0,26,8,6,8,0
+4,Upper Austria,8,Styria,42,Upper Austria outer,81,Styria inner,10,1,6,0,0,6,5,1,0,0,33,5,17,5,0,37,16,13,4,2
+4,Upper Austria,8,Styria,42,Upper Austria outer,82,Styria outer,3,1,2,0,0,0,0,0,0,0,33,5,17,5,0,37,16,13,4,2
+4,Upper Austria,9,Carinthia,42,Upper Austria outer,91,Carinthia inner,1,0,1,0,0,5,1,1,1,0,18,3,5,4,3,32,9,10,4,4
+4,Upper Austria,9,Carinthia,42,Upper Austria outer,92,Carinthia outer,0,0,0,0,0,3,1,0,1,1,18,3,5,4,3,32,9,10,4,4
+4,Upper Austria,21,Vienna,42,Upper Austria outer,211,Vienna inner,118,44,48,9,5,215,118,56,19,8,985,298,387,156,45,1500,645,459,168,54
+4,Upper Austria,21,Vienna,42,Upper Austria outer,212,Vienna outer,21,3,6,4,2,16,2,7,3,0,985,298,387,156,45,1500,645,459,168,54
+4,Upper Austria,22,Graz,42,Upper Austria outer,221,Graz inner,29,11,11,1,0,33,25,5,1,2,147,42,44,28,9,228,123,52,28,12
+4,Upper Austria,22,Graz,42,Upper Austria outer,222,Graz outer,3,1,2,0,0,0,0,0,0,0,147,42,44,28,9,228,123,52,28,12
+4,Upper Austria,23,Linz,42,Upper Austria outer,231,Linz inner,139,38,55,17,3,215,81,69,24,19,1255,342,421,214,54,1711,444,534,314,139
+4,Upper Austria,23,Linz,42,Upper Austria outer,232,Linz outer,91,21,26,14,3,109,20,33,20,14,1255,342,421,214,54,1711,444,534,314,139
+4,Upper Austria,24,Salzburg,42,Upper Austria outer,241,Salzburg inner,44,11,19,7,1,48,13,20,5,3,344,79,127,53,20,339,88,115,57,32
+4,Upper Austria,24,Salzburg,42,Upper Austria outer,242,Salzburg outer,14,2,5,4,0,25,5,7,4,5,344,79,127,53,20,339,88,115,57,32
+4,Upper Austria,25,Innsbruck,42,Upper Austria outer,251,Innsbruck inner,20,7,12,1,0,26,16,8,1,1,90,32,37,9,5,111,57,32,11,4
+4,Upper Austria,25,Innsbruck,42,Upper Austria outer,252,Innsbruck outer,0,0,0,0,0,0,0,0,0,0,90,32,37,9,5,111,57,32,11,4
+4,Upper Austria,26,Klagenfurt,42,Upper Austria outer,261,Klagenfurt inner,7,1,5,0,0,3,2,0,0,0,43,10,16,6,5,43,10,13,9,4
+4,Upper Austria,26,Klagenfurt,42,Upper Austria outer,262,Klagenfurt outer,0,0,0,0,0,0,0,0,0,0,43,10,16,6,5,43,10,13,9,4
+4,Upper Austria,30,rural rest,42,Upper Austria outer,30,rural rest,970,227,257,159,45,1166,237,327,224,105,3362,758,910,590,211,4152,858,1219,770,355
+5,Lower Austria,1,Vorarlberg,51,Lower Austria inner,11,Vorarlberg inner,12,5,5,1,1,33,4,8,8,3,17,6,8,2,1,43,4,14,10,3
+5,Lower Austria,1,Vorarlberg,51,Lower Austria inner,12,Vorarlberg outer,0,0,0,0,0,2,0,1,0,0,17,6,8,2,1,43,4,14,10,3
+5,Lower Austria,2,Tyrol,51,Lower Austria inner,21,Tyrol inner,5,0,5,0,0,4,1,1,1,0,6,0,6,0,0,5,2,1,1,0
+5,Lower Austria,2,Tyrol,51,Lower Austria inner,22,Tyrol outer,0,0,0,0,0,1,1,0,0,0,6,0,6,0,0,5,2,1,1,0
+5,Lower Austria,3,Salzburg,51,Lower Austria inner,31,Salzburg inner,3,1,1,0,0,3,1,2,0,0,3,1,1,0,0,4,1,2,0,1
+5,Lower Austria,4,Upper Austria,51,Lower Austria inner,41,Upper Austria inner,33,5,14,10,1,68,18,23,15,5,358,92,97,65,19,453,123,123,82,46
+5,Lower Austria,4,Upper Austria,51,Lower Austria inner,42,Upper Austria outer,1,0,0,1,0,7,1,2,1,2,358,92,97,65,19,453,123,123,82,46
+5,Lower Austria,5,Lower Austria,51,Lower Austria inner,51,Lower Austria inner,543,132,134,113,21,642,144,169,120,50,3093,599,842,633,165,3526,698,997,671,266
+5,Lower Austria,5,Lower Austria,51,Lower Austria inner,52,Lower Austria outer,963,133,287,198,56,1031,172,307,221,72,3093,599,842,633,165,3526,698,997,671,266
+5,Lower Austria,7,Burgenland,51,Lower Austria inner,71,Burgenland inner,59,13,21,11,5,134,24,38,26,9,329,74,80,74,16,422,79,100,86,33
+5,Lower Austria,7,Burgenland,51,Lower Austria inner,72,Burgenland outer,1,0,1,0,0,8,2,1,3,0,329,74,80,74,16,422,79,100,86,33
+5,Lower Austria,8,Styria,51,Lower Austria inner,81,Styria inner,17,5,6,3,1,26,7,7,4,2,32,9,12,4,1,44,16,11,6,4
+5,Lower Austria,8,Styria,51,Lower Austria inner,82,Styria outer,6,2,2,0,0,2,0,1,0,1,32,9,12,4,1,44,16,11,6,4
+5,Lower Austria,9,Carinthia,51,Lower Austria inner,91,Carinthia inner,10,1,1,5,0,4,2,1,1,0,17,3,3,7,1,10,3,3,3,0
+5,Lower Austria,9,Carinthia,51,Lower Austria inner,92,Carinthia outer,2,0,0,2,0,1,1,0,0,0,17,3,3,7,1,10,3,3,3,0
+5,Lower Austria,21,Vienna,51,Lower Austria inner,211,Vienna inner,700,193,232,147,35,972,242,314,192,69,1375,354,428,274,68,1750,453,563,318,130
+5,Lower Austria,21,Vienna,51,Lower Austria inner,212,Vienna outer,152,24,37,32,11,176,45,49,34,17,1375,354,428,274,68,1750,453,563,318,130
+5,Lower Austria,22,Graz,51,Lower Austria inner,221,Graz inner,40,15,6,4,3,62,14,17,12,9,61,20,14,8,3,104,33,29,18,12
+5,Lower Austria,22,Graz,51,Lower Austria inner,222,Graz outer,3,0,0,3,0,4,3,0,0,1,61,20,14,8,3,104,33,29,18,12
+5,Lower Austria,23,Linz,51,Lower Austria inner,231,Linz inner,63,19,24,13,2,102,24,37,14,8,190,58,62,32,9,286,76,100,42,20
+5,Lower Austria,23,Linz,51,Lower Austria inner,232,Linz outer,19,3,7,3,2,31,7,9,4,3,190,58,62,32,9,286,76,100,42,20
+5,Lower Austria,24,Salzburg,51,Lower Austria inner,241,Salzburg inner,11,5,2,3,0,27,6,12,5,1,39,10,13,10,0,49,12,17,12,3
+5,Lower Austria,24,Salzburg,51,Lower Austria inner,242,Salzburg outer,4,0,3,1,0,5,1,0,4,0,39,10,13,10,0,49,12,17,12,3
+5,Lower Austria,25,Innsbruck,51,Lower Austria inner,251,Innsbruck inner,18,3,4,4,1,28,10,10,6,1,23,6,6,4,1,46,15,17,8,4
+5,Lower Austria,25,Innsbruck,51,Lower Austria inner,252,Innsbruck outer,1,1,0,0,0,4,2,0,0,1,23,6,6,4,1,46,15,17,8,4
+5,Lower Austria,26,Klagenfurt,51,Lower Austria inner,261,Klagenfurt inner,5,1,3,1,0,17,5,4,4,2,17,5,4,1,3,32,8,8,7,6
+5,Lower Austria,26,Klagenfurt,51,Lower Austria inner,262,Klagenfurt outer,7,2,0,0,3,3,1,0,0,2,17,5,4,1,3,32,8,8,7,6
+5,Lower Austria,30,rural rest,51,Lower Austria inner,30,rural rest,1824,378,496,296,129,2072,401,548,416,201,3094,655,838,529,186,3530,733,952,656,320
+5,Lower Austria,1,Vorarlberg,52,Lower Austria outer,11,Vorarlberg inner,5,1,3,1,0,7,0,5,2,0,17,6,8,2,1,43,4,14,10,3
+5,Lower Austria,1,Vorarlberg,52,Lower Austria outer,12,Vorarlberg outer,0,0,0,0,0,1,0,0,0,0,17,6,8,2,1,43,4,14,10,3
+5,Lower Austria,2,Tyrol,52,Lower Austria outer,21,Tyrol inner,0,0,0,0,0,0,0,0,0,0,6,0,6,0,0,5,2,1,1,0
+5,Lower Austria,2,Tyrol,52,Lower Austria outer,22,Tyrol outer,1,0,1,0,0,0,0,0,0,0,6,0,6,0,0,5,2,1,1,0
+5,Lower Austria,3,Salzburg,52,Lower Austria outer,31,Salzburg inner,0,0,0,0,0,1,0,0,0,1,3,1,1,0,0,4,1,2,0,1
+5,Lower Austria,4,Upper Austria,52,Lower Austria outer,41,Upper Austria inner,314,83,83,51,17,363,101,92,63,39,358,92,97,65,19,453,123,123,82,46
+5,Lower Austria,4,Upper Austria,52,Lower Austria outer,42,Upper Austria outer,10,4,0,3,1,15,3,6,3,0,358,92,97,65,19,453,123,123,82,46
+5,Lower Austria,5,Lower Austria,52,Lower Austria outer,51,Lower Austria inner,964,198,247,199,58,963,215,250,183,86,3093,599,842,633,165,3526,698,997,671,266
+5,Lower Austria,5,Lower Austria,52,Lower Austria outer,52,Lower Austria outer,623,136,174,123,30,890,167,271,147,58,3093,599,842,633,165,3526,698,997,671,266
+5,Lower Austria,7,Burgenland,52,Lower Austria outer,71,Burgenland inner,269,61,58,63,11,275,51,59,57,24,329,74,80,74,16,422,79,100,86,33
+5,Lower Austria,7,Burgenland,52,Lower Austria outer,72,Burgenland outer,0,0,0,0,0,5,2,2,0,0,329,74,80,74,16,422,79,100,86,33
+5,Lower Austria,8,Styria,52,Lower Austria outer,81,Styria inner,8,2,4,0,0,13,8,2,2,1,32,9,12,4,1,44,16,11,6,4
+5,Lower Austria,8,Styria,52,Lower Austria outer,82,Styria outer,1,0,0,1,0,3,1,1,0,0,32,9,12,4,1,44,16,11,6,4
+5,Lower Austria,9,Carinthia,52,Lower Austria outer,91,Carinthia inner,4,1,2,0,1,2,0,1,1,0,17,3,3,7,1,10,3,3,3,0
+5,Lower Austria,9,Carinthia,52,Lower Austria outer,92,Carinthia outer,1,1,0,0,0,3,0,1,1,0,17,3,3,7,1,10,3,3,3,0
+5,Lower Austria,21,Vienna,52,Lower Austria outer,211,Vienna inner,407,121,132,71,19,473,140,173,63,33,1375,354,428,274,68,1750,453,563,318,130
+5,Lower Austria,21,Vienna,52,Lower Austria outer,212,Vienna outer,116,16,27,24,3,129,26,27,29,11,1375,354,428,274,68,1750,453,563,318,130
+5,Lower Austria,22,Graz,52,Lower Austria outer,221,Graz inner,17,5,7,1,0,33,15,12,3,2,61,20,14,8,3,104,33,29,18,12
+5,Lower Austria,22,Graz,52,Lower Austria outer,222,Graz outer,1,0,1,0,0,5,1,0,3,0,61,20,14,8,3,104,33,29,18,12
+5,Lower Austria,23,Linz,52,Lower Austria outer,231,Linz inner,68,30,19,11,4,108,39,36,17,3,190,58,62,32,9,286,76,100,42,20
+5,Lower Austria,23,Linz,52,Lower Austria outer,232,Linz outer,40,6,12,5,1,45,6,18,7,6,190,58,62,32,9,286,76,100,42,20
+5,Lower Austria,24,Salzburg,52,Lower Austria outer,241,Salzburg inner,16,5,6,3,0,14,3,5,2,2,39,10,13,10,0,49,12,17,12,3
+5,Lower Austria,24,Salzburg,52,Lower Austria outer,242,Salzburg outer,8,0,2,3,0,3,2,0,1,0,39,10,13,10,0,49,12,17,12,3
+5,Lower Austria,25,Innsbruck,52,Lower Austria outer,251,Innsbruck inner,4,2,2,0,0,14,3,7,2,2,23,6,6,4,1,46,15,17,8,4
+5,Lower Austria,25,Innsbruck,52,Lower Austria outer,252,Innsbruck outer,0,0,0,0,0,0,0,0,0,0,23,6,6,4,1,46,15,17,8,4
+5,Lower Austria,26,Klagenfurt,52,Lower Austria outer,261,Klagenfurt inner,5,2,1,0,0,8,2,3,2,1,17,5,4,1,3,32,8,8,7,6
+5,Lower Austria,26,Klagenfurt,52,Lower Austria outer,262,Klagenfurt outer,0,0,0,0,0,4,0,1,1,1,17,5,4,1,3,32,8,8,7,6
+5,Lower Austria,30,rural rest,52,Lower Austria outer,30,rural rest,1270,277,342,233,57,1458,332,404,240,119,3094,655,838,529,186,3530,733,952,656,320
+7,Burgenland,1,Vorarlberg,71,Burgenland inner,11,Vorarlberg inner,10,1,4,0,0,16,1,5,2,1,10,1,4,0,0,19,1,6,2,1
+7,Burgenland,1,Vorarlberg,71,Burgenland inner,12,Vorarlberg outer,0,0,0,0,0,3,0,1,0,0,10,1,4,0,0,19,1,6,2,1
+7,Burgenland,2,Tyrol,71,Burgenland inner,21,Tyrol inner,5,0,1,2,1,4,1,3,0,0,5,0,1,2,1,4,1,3,0,0
+7,Burgenland,2,Tyrol,71,Burgenland inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,5,0,1,2,1,4,1,3,0,0
+7,Burgenland,3,Salzburg,71,Burgenland inner,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Burgenland,4,Upper Austria,71,Burgenland inner,41,Upper Austria inner,14,1,4,3,0,25,3,8,5,3,20,2,4,5,0,27,3,9,6,3
+7,Burgenland,4,Upper Austria,71,Burgenland inner,42,Upper Austria outer,0,0,0,0,0,1,0,0,1,0,20,2,4,5,0,27,3,9,6,3
+7,Burgenland,5,Lower Austria,71,Burgenland inner,51,Lower Austria inner,48,13,15,10,2,146,32,43,33,10,263,50,72,58,7,413,86,111,79,32
+7,Burgenland,5,Lower Austria,71,Burgenland inner,52,Lower Austria outer,208,36,54,47,3,263,53,65,46,22,263,50,72,58,7,413,86,111,79,32
+7,Burgenland,7,Burgenland,71,Burgenland inner,71,Burgenland inner,637,127,159,127,38,724,157,180,127,64,985,181,264,199,51,1091,210,294,212,87
+7,Burgenland,7,Burgenland,71,Burgenland inner,72,Burgenland outer,137,12,37,35,7,131,15,42,32,6,985,181,264,199,51,1091,210,294,212,87
+7,Burgenland,8,Styria,71,Burgenland inner,81,Styria inner,10,3,3,2,1,49,9,14,19,3,11,3,4,2,1,52,10,15,20,3
+7,Burgenland,8,Styria,71,Burgenland inner,82,Styria outer,1,0,1,0,0,2,0,1,1,0,11,3,4,2,1,52,10,15,20,3
+7,Burgenland,9,Carinthia,71,Burgenland inner,91,Carinthia inner,3,1,0,1,0,4,0,0,3,0,8,2,2,1,0,8,0,1,4,0
+7,Burgenland,9,Carinthia,71,Burgenland inner,92,Carinthia outer,4,1,1,0,0,4,0,1,1,0,8,2,2,1,0,8,0,1,4,0
+7,Burgenland,21,Vienna,71,Burgenland inner,211,Vienna inner,607,184,155,127,36,805,246,258,129,53,1086,298,276,236,66,1432,386,403,281,103
+7,Burgenland,21,Vienna,71,Burgenland inner,212,Vienna outer,334,72,78,85,21,489,109,108,118,42,1086,298,276,236,66,1432,386,403,281,103
+7,Burgenland,22,Graz,71,Burgenland inner,221,Graz inner,16,3,5,5,0,102,17,35,31,7,19,5,5,6,0,117,19,40,33,10
+7,Burgenland,22,Graz,71,Burgenland inner,222,Graz outer,3,2,0,1,0,11,2,2,2,2,19,5,5,6,0,117,19,40,33,10
+7,Burgenland,23,Linz,71,Burgenland inner,231,Linz inner,12,0,3,5,0,16,3,4,6,1,16,1,5,6,0,22,3,4,7,1
+7,Burgenland,23,Linz,71,Burgenland inner,232,Linz outer,3,0,2,1,0,0,0,0,0,0,16,1,5,6,0,22,3,4,7,1
+7,Burgenland,24,Salzburg,71,Burgenland inner,241,Salzburg inner,20,3,9,3,0,11,0,6,0,4,28,3,10,5,0,14,1,8,0,4
+7,Burgenland,24,Salzburg,71,Burgenland inner,242,Salzburg outer,7,0,0,2,0,2,1,1,0,0,28,3,10,5,0,14,1,8,0,4
+7,Burgenland,25,Innsbruck,71,Burgenland inner,251,Innsbruck inner,8,1,2,3,0,22,5,4,2,0,11,1,3,4,1,23,5,5,2,0
+7,Burgenland,25,Innsbruck,71,Burgenland inner,252,Innsbruck outer,1,0,1,0,0,1,0,1,0,0,11,1,3,4,1,23,5,5,2,0
+7,Burgenland,26,Klagenfurt,71,Burgenland inner,261,Klagenfurt inner,11,2,3,2,1,20,3,5,7,0,12,3,3,2,1,23,4,6,8,0
+7,Burgenland,26,Klagenfurt,71,Burgenland inner,262,Klagenfurt outer,1,1,0,0,0,3,1,1,1,0,12,3,3,2,1,23,4,6,8,0
+7,Burgenland,30,rural rest,71,Burgenland inner,30,rural rest,844,137,207,179,69,1212,215,328,226,111,943,160,238,192,76,1356,243,359,260,118
+7,Burgenland,1,Vorarlberg,72,Burgenland outer,11,Vorarlberg inner,0,0,0,0,0,0,0,0,0,0,10,1,4,0,0,19,1,6,2,1
+7,Burgenland,1,Vorarlberg,72,Burgenland outer,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,10,1,4,0,0,19,1,6,2,1
+7,Burgenland,2,Tyrol,72,Burgenland outer,21,Tyrol inner,0,0,0,0,0,0,0,0,0,0,5,0,1,2,1,4,1,3,0,0
+7,Burgenland,3,Salzburg,72,Burgenland outer,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Burgenland,4,Upper Austria,72,Burgenland outer,41,Upper Austria inner,5,0,0,2,0,1,0,1,0,0,20,2,4,5,0,27,3,9,6,3
+7,Burgenland,4,Upper Austria,72,Burgenland outer,42,Upper Austria outer,1,1,0,0,0,0,0,0,0,0,20,2,4,5,0,27,3,9,6,3
+7,Burgenland,5,Lower Austria,72,Burgenland outer,51,Lower Austria inner,3,1,1,1,0,1,0,1,0,0,263,50,72,58,7,413,86,111,79,32
+7,Burgenland,5,Lower Austria,72,Burgenland outer,52,Lower Austria outer,4,0,2,0,2,3,1,2,0,0,263,50,72,58,7,413,86,111,79,32
+7,Burgenland,7,Burgenland,72,Burgenland outer,71,Burgenland inner,137,31,51,21,4,149,23,50,31,9,985,181,264,199,51,1091,210,294,212,87
+7,Burgenland,7,Burgenland,72,Burgenland outer,72,Burgenland outer,74,11,17,16,2,87,15,22,22,8,985,181,264,199,51,1091,210,294,212,87
+7,Burgenland,8,Styria,72,Burgenland outer,81,Styria inner,0,0,0,0,0,1,1,0,0,0,11,3,4,2,1,52,10,15,20,3
+7,Burgenland,8,Styria,72,Burgenland outer,82,Styria outer,0,0,0,0,0,0,0,0,0,0,11,3,4,2,1,52,10,15,20,3
+7,Burgenland,9,Carinthia,72,Burgenland outer,91,Carinthia inner,0,0,0,0,0,0,0,0,0,0,8,2,2,1,0,8,0,1,4,0
+7,Burgenland,9,Carinthia,72,Burgenland outer,92,Carinthia outer,1,0,1,0,0,0,0,0,0,0,8,2,2,1,0,8,0,1,4,0
+7,Burgenland,21,Vienna,72,Burgenland outer,211,Vienna inner,109,37,33,20,3,115,28,28,31,6,1086,298,276,236,66,1432,386,403,281,103
+7,Burgenland,21,Vienna,72,Burgenland outer,212,Vienna outer,36,5,10,4,6,23,3,9,3,2,1086,298,276,236,66,1432,386,403,281,103
+7,Burgenland,22,Graz,72,Burgenland outer,221,Graz inner,0,0,0,0,0,4,0,3,0,1,19,5,5,6,0,117,19,40,33,10
+7,Burgenland,22,Graz,72,Burgenland outer,222,Graz outer,0,0,0,0,0,0,0,0,0,0,19,5,5,6,0,117,19,40,33,10
+7,Burgenland,23,Linz,72,Burgenland outer,231,Linz inner,0,0,0,0,0,6,0,0,1,0,16,1,5,6,0,22,3,4,7,1
+7,Burgenland,23,Linz,72,Burgenland outer,232,Linz outer,1,1,0,0,0,0,0,0,0,0,16,1,5,6,0,22,3,4,7,1
+7,Burgenland,24,Salzburg,72,Burgenland outer,241,Salzburg inner,1,0,1,0,0,1,0,1,0,0,28,3,10,5,0,14,1,8,0,4
+7,Burgenland,24,Salzburg,72,Burgenland outer,242,Salzburg outer,0,0,0,0,0,0,0,0,0,0,28,3,10,5,0,14,1,8,0,4
+7,Burgenland,25,Innsbruck,72,Burgenland outer,251,Innsbruck inner,2,0,0,1,1,0,0,0,0,0,11,1,3,4,1,23,5,5,2,0
+7,Burgenland,25,Innsbruck,72,Burgenland outer,252,Innsbruck outer,0,0,0,0,0,0,0,0,0,0,11,1,3,4,1,23,5,5,2,0
+7,Burgenland,26,Klagenfurt,72,Burgenland outer,261,Klagenfurt inner,0,0,0,0,0,0,0,0,0,0,12,3,3,2,1,23,4,6,8,0
+7,Burgenland,30,rural rest,72,Burgenland outer,30,rural rest,99,23,31,13,7,144,28,31,34,7,943,160,238,192,76,1356,243,359,260,118
+8,Styria,1,Vorarlberg,81,Styria inner,11,Vorarlberg inner,30,5,10,5,4,32,6,5,3,4,49,8,15,10,4,43,7,7,5,6
+8,Styria,1,Vorarlberg,81,Styria inner,12,Vorarlberg outer,3,2,0,0,0,5,1,1,1,0,49,8,15,10,4,43,7,7,5,6
+8,Styria,2,Tyrol,81,Styria inner,21,Tyrol inner,6,1,0,3,0,12,3,4,2,1,7,1,1,3,0,16,4,5,3,2
+8,Styria,2,Tyrol,81,Styria inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,7,1,1,3,0,16,4,5,3,2
+8,Styria,3,Salzburg,81,Styria inner,31,Salzburg inner,2,0,1,0,0,3,1,2,0,0,2,0,1,0,0,3,1,2,0,0
+8,Styria,4,Upper Austria,81,Styria inner,41,Upper Austria inner,31,9,11,7,1,54,7,20,10,5,35,9,12,9,1,73,11,25,14,6
+8,Styria,4,Upper Austria,81,Styria inner,42,Upper Austria outer,4,0,1,2,0,9,0,5,2,0,35,9,12,9,1,73,11,25,14,6
+8,Styria,5,Lower Austria,81,Styria inner,51,Lower Austria inner,18,3,7,4,1,51,8,16,7,2,34,5,11,11,2,72,13,22,10,2
+8,Styria,5,Lower Austria,81,Styria inner,52,Lower Austria outer,11,1,2,6,0,7,4,3,0,0,34,5,11,11,2,72,13,22,10,2
+8,Styria,7,Burgenland,81,Styria inner,71,Burgenland inner,12,5,2,1,1,19,8,2,5,2,19,7,5,1,1,23,9,2,7,3
+8,Styria,7,Burgenland,81,Styria inner,72,Burgenland outer,3,0,1,0,0,0,0,0,0,0,19,7,5,1,1,23,9,2,7,3
+8,Styria,8,Styria,81,Styria inner,81,Styria inner,3909,886,1023,714,213,4338,943,1115,835,346,6549,1457,1710,1174,339,7034,1534,1778,1319,575
+8,Styria,8,Styria,81,Styria inner,82,Styria outer,1114,206,301,203,59,1152,220,282,211,102,6549,1457,1710,1174,339,7034,1534,1778,1319,575
+8,Styria,9,Carinthia,81,Styria inner,91,Carinthia inner,29,8,7,7,3,36,8,13,6,5,45,11,11,11,7,65,15,21,12,8
+8,Styria,9,Carinthia,81,Styria inner,92,Carinthia outer,8,2,0,3,2,22,5,7,4,3,45,11,11,11,7,65,15,21,12,8
+8,Styria,21,Vienna,81,Styria inner,211,Vienna inner,474,142,181,84,17,559,155,158,107,30,653,189,247,113,24,759,219,225,138,43
+8,Styria,21,Vienna,81,Styria inner,212,Vienna outer,47,5,19,11,1,80,22,22,15,5,653,189,247,113,24,759,219,225,138,43
+8,Styria,22,Graz,81,Styria inner,221,Graz inner,929,309,318,136,48,1238,492,313,173,67,1646,507,541,247,83,2185,791,558,310,149
+8,Styria,22,Graz,81,Styria inner,222,Graz outer,418,92,137,62,25,561,128,156,91,60,1646,507,541,247,83,2185,791,558,310,149
+8,Styria,23,Linz,81,Styria inner,231,Linz inner,43,11,14,9,0,59,12,19,10,3,73,18,25,14,0,86,21,23,18,3
+8,Styria,23,Linz,81,Styria inner,232,Linz outer,15,3,4,3,0,9,5,3,1,0,73,18,25,14,0,86,21,23,18,3
+8,Styria,24,Salzburg,81,Styria inner,241,Salzburg inner,44,15,16,7,3,41,11,17,5,2,63,20,25,10,4,63,17,23,8,5
+8,Styria,24,Salzburg,81,Styria inner,242,Salzburg outer,7,2,2,2,1,12,2,3,3,0,63,20,25,10,4,63,17,23,8,5
+8,Styria,25,Innsbruck,81,Styria inner,251,Innsbruck inner,11,4,3,4,0,16,6,4,3,2,20,5,7,5,0,24,8,7,4,2
+8,Styria,25,Innsbruck,81,Styria inner,252,Innsbruck outer,7,0,3,1,0,3,0,1,0,0,20,5,7,5,0,24,8,7,4,2
+8,Styria,26,Klagenfurt,81,Styria inner,261,Klagenfurt inner,57,14,18,8,3,55,17,13,11,2,94,18,27,15,7,86,22,20,15,10
+8,Styria,26,Klagenfurt,81,Styria inner,262,Klagenfurt outer,20,2,5,4,1,15,3,2,3,4,94,18,27,15,7,86,22,20,15,10
+8,Styria,30,rural rest,81,Styria inner,30,rural rest,1489,293,404,236,117,1819,406,489,321,145,2028,404,541,324,138,2378,520,632,406,201
+8,Styria,1,Vorarlberg,82,Styria outer,11,Vorarlberg inner,16,1,5,5,0,6,0,1,1,2,49,8,15,10,4,43,7,7,5,6
+8,Styria,1,Vorarlberg,82,Styria outer,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,49,8,15,10,4,43,7,7,5,6
+8,Styria,2,Tyrol,82,Styria outer,21,Tyrol inner,1,0,1,0,0,4,1,1,1,1,7,1,1,3,0,16,4,5,3,2
+8,Styria,2,Tyrol,82,Styria outer,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,7,1,1,3,0,16,4,5,3,2
+8,Styria,3,Salzburg,82,Styria outer,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,3,1,2,0,0
+8,Styria,4,Upper Austria,82,Styria outer,41,Upper Austria inner,0,0,0,0,0,9,4,0,2,0,35,9,12,9,1,73,11,25,14,6
+8,Styria,4,Upper Austria,82,Styria outer,42,Upper Austria outer,0,0,0,0,0,1,0,0,0,1,35,9,12,9,1,73,11,25,14,6
+8,Styria,5,Lower Austria,82,Styria outer,51,Lower Austria inner,4,1,2,1,0,5,1,1,1,0,34,5,11,11,2,72,13,22,10,2
+8,Styria,5,Lower Austria,82,Styria outer,52,Lower Austria outer,1,0,0,0,1,9,0,2,2,0,34,5,11,11,2,72,13,22,10,2
+8,Styria,7,Burgenland,82,Styria outer,71,Burgenland inner,4,2,2,0,0,4,1,0,2,1,19,7,5,1,1,23,9,2,7,3
+8,Styria,7,Burgenland,82,Styria outer,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,19,7,5,1,1,23,9,2,7,3
+8,Styria,8,Styria,82,Styria outer,81,Styria inner,1125,284,288,185,48,1124,279,292,195,92,6549,1457,1710,1174,339,7034,1534,1778,1319,575
+8,Styria,8,Styria,82,Styria outer,82,Styria outer,401,81,98,72,19,420,92,89,78,35,6549,1457,1710,1174,339,7034,1534,1778,1319,575
+8,Styria,9,Carinthia,82,Styria outer,91,Carinthia inner,6,1,3,1,1,6,2,1,1,0,45,11,11,11,7,65,15,21,12,8
+8,Styria,9,Carinthia,82,Styria outer,92,Carinthia outer,2,0,1,0,1,1,0,0,1,0,45,11,11,11,7,65,15,21,12,8
+8,Styria,21,Vienna,82,Styria outer,211,Vienna inner,117,38,41,16,5,117,42,44,14,8,653,189,247,113,24,759,219,225,138,43
+8,Styria,21,Vienna,82,Styria outer,212,Vienna outer,15,4,6,2,1,3,0,1,2,0,653,189,247,113,24,759,219,225,138,43
+8,Styria,22,Graz,82,Styria outer,221,Graz inner,219,89,57,36,8,295,153,65,31,12,1646,507,541,247,83,2185,791,558,310,149
+8,Styria,22,Graz,82,Styria outer,222,Graz outer,80,17,29,13,2,91,18,24,15,10,1646,507,541,247,83,2185,791,558,310,149
+8,Styria,23,Linz,82,Styria outer,231,Linz inner,13,2,7,2,0,10,4,0,4,0,73,18,25,14,0,86,21,23,18,3
+8,Styria,23,Linz,82,Styria outer,232,Linz outer,2,2,0,0,0,8,0,1,3,0,73,18,25,14,0,86,21,23,18,3
+8,Styria,24,Salzburg,82,Styria outer,241,Salzburg inner,9,3,6,0,0,6,3,1,0,2,63,20,25,10,4,63,17,23,8,5
+8,Styria,24,Salzburg,82,Styria outer,242,Salzburg outer,3,0,1,1,0,4,1,2,0,1,63,20,25,10,4,63,17,23,8,5
+8,Styria,25,Innsbruck,82,Styria outer,251,Innsbruck inner,1,1,0,0,0,4,2,2,0,0,20,5,7,5,0,24,8,7,4,2
+8,Styria,25,Innsbruck,82,Styria outer,252,Innsbruck outer,1,0,1,0,0,1,0,0,1,0,20,5,7,5,0,24,8,7,4,2
+8,Styria,26,Klagenfurt,82,Styria outer,261,Klagenfurt inner,15,2,4,3,2,15,2,4,1,4,94,18,27,15,7,86,22,20,15,10
+8,Styria,26,Klagenfurt,82,Styria outer,262,Klagenfurt outer,2,0,0,0,1,1,0,1,0,0,94,18,27,15,7,86,22,20,15,10
+8,Styria,30,rural rest,82,Styria outer,30,rural rest,539,111,137,88,21,559,114,143,85,56,2028,404,541,324,138,2378,520,632,406,201
+9,Carinthia,1,Vorarlberg,91,Carinthia inner,11,Vorarlberg inner,25,7,7,3,0,13,1,4,3,1,40,9,10,8,0,24,2,6,8,1
+9,Carinthia,1,Vorarlberg,91,Carinthia inner,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,40,9,10,8,0,24,2,6,8,1
+9,Carinthia,2,Tyrol,91,Carinthia inner,21,Tyrol inner,12,3,4,4,0,23,3,5,5,0,25,5,7,9,1,32,6,8,5,0
+9,Carinthia,2,Tyrol,91,Carinthia inner,22,Tyrol outer,0,0,0,0,0,1,1,0,0,0,25,5,7,9,1,32,6,8,5,0
+9,Carinthia,3,Salzburg,91,Carinthia inner,31,Salzburg inner,20,8,11,0,0,5,1,0,2,1,22,9,11,0,1,5,1,0,2,1
+9,Carinthia,4,Upper Austria,91,Carinthia inner,41,Upper Austria inner,23,0,9,6,1,21,3,6,3,1,33,4,11,6,1,34,6,8,8,3
+9,Carinthia,4,Upper Austria,91,Carinthia inner,42,Upper Austria outer,0,0,0,0,0,1,0,0,1,0,33,4,11,6,1,34,6,8,8,3
+9,Carinthia,5,Lower Austria,91,Carinthia inner,51,Lower Austria inner,9,0,3,1,1,11,4,2,1,2,15,0,3,5,1,16,5,5,2,2
+9,Carinthia,5,Lower Austria,91,Carinthia inner,52,Lower Austria outer,0,0,0,0,0,1,0,0,1,0,15,0,3,5,1,16,5,5,2,2
+9,Carinthia,7,Burgenland,91,Carinthia inner,71,Burgenland inner,3,0,2,1,0,6,2,0,2,0,5,1,3,1,0,7,3,0,2,0
+9,Carinthia,7,Burgenland,91,Carinthia inner,72,Burgenland outer,0,0,0,0,0,1,1,0,0,0,5,1,3,1,0,7,3,0,2,0
+9,Carinthia,8,Styria,91,Carinthia inner,81,Styria inner,19,6,6,1,2,39,10,15,6,1,40,10,13,1,4,69,19,26,10,2
+9,Carinthia,8,Styria,91,Carinthia inner,82,Styria outer,2,0,1,0,0,7,1,2,2,0,40,10,13,1,4,69,19,26,10,2
+9,Carinthia,9,Carinthia,91,Carinthia inner,91,Carinthia inner,361,84,96,76,17,564,158,117,102,48,2623,554,655,533,130,3170,684,738,623,284
+9,Carinthia,9,Carinthia,91,Carinthia inner,92,Carinthia outer,870,144,225,182,46,1029,185,243,216,96,2623,554,655,533,130,3170,684,738,623,284
+9,Carinthia,21,Vienna,91,Carinthia inner,211,Vienna inner,412,147,153,63,12,470,221,116,57,18,621,206,238,91,18,738,321,194,94,37
+9,Carinthia,21,Vienna,91,Carinthia inner,212,Vienna outer,17,2,6,2,0,30,2,4,11,4,621,206,238,91,18,738,321,194,94,37
+9,Carinthia,22,Graz,91,Carinthia inner,221,Graz inner,202,79,83,23,0,320,196,70,30,6,302,119,119,34,5,488,306,96,48,12
+9,Carinthia,22,Graz,91,Carinthia inner,222,Graz outer,15,6,5,1,0,13,2,1,3,3,302,119,119,34,5,488,306,96,48,12
+9,Carinthia,23,Linz,91,Carinthia inner,231,Linz inner,13,4,4,3,2,31,4,8,9,4,29,9,10,3,4,49,8,11,13,6
+9,Carinthia,23,Linz,91,Carinthia inner,232,Linz outer,9,1,4,0,2,5,2,1,0,1,29,9,10,3,4,49,8,11,13,6
+9,Carinthia,24,Salzburg,91,Carinthia inner,241,Salzburg inner,39,12,15,6,1,39,9,17,5,4,63,13,28,8,5,71,14,29,10,6
+9,Carinthia,24,Salzburg,91,Carinthia inner,242,Salzburg outer,6,0,4,0,1,6,0,2,2,0,63,13,28,8,5,71,14,29,10,6
+9,Carinthia,25,Innsbruck,91,Carinthia inner,251,Innsbruck inner,23,2,10,4,3,28,6,13,5,0,44,12,17,7,3,40,10,16,8,0
+9,Carinthia,25,Innsbruck,91,Carinthia inner,252,Innsbruck outer,1,1,0,0,0,0,0,0,0,0,44,12,17,7,3,40,10,16,8,0
+9,Carinthia,26,Klagenfurt,91,Carinthia inner,261,Klagenfurt inner,261,56,87,49,18,343,82,99,56,30,523,109,175,93,36,620,143,167,109,61
+9,Carinthia,26,Klagenfurt,91,Carinthia inner,262,Klagenfurt outer,93,14,30,18,11,90,18,20,21,11,523,109,175,93,36,620,143,167,109,61
+9,Carinthia,30,rural rest,91,Carinthia inner,30,rural rest,854,177,233,167,48,854,174,228,163,86,1421,287,371,284,76,1429,289,374,263,130
+9,Carinthia,1,Vorarlberg,92,Carinthia outer,11,Vorarlberg inner,14,2,3,5,0,11,1,2,5,0,40,9,10,8,0,24,2,6,8,1
+9,Carinthia,1,Vorarlberg,92,Carinthia outer,12,Vorarlberg outer,1,0,0,0,0,0,0,0,0,0,40,9,10,8,0,24,2,6,8,1
+9,Carinthia,2,Tyrol,92,Carinthia outer,21,Tyrol inner,11,2,2,4,1,8,2,3,0,0,25,5,7,9,1,32,6,8,5,0
+9,Carinthia,2,Tyrol,92,Carinthia outer,22,Tyrol outer,2,0,1,1,0,0,0,0,0,0,25,5,7,9,1,32,6,8,5,0
+9,Carinthia,3,Salzburg,92,Carinthia outer,31,Salzburg inner,2,1,0,0,1,0,0,0,0,0,22,9,11,0,1,5,1,0,2,1
+9,Carinthia,4,Upper Austria,92,Carinthia outer,41,Upper Austria inner,9,3,2,0,0,12,3,2,4,2,33,4,11,6,1,34,6,8,8,3
+9,Carinthia,4,Upper Austria,92,Carinthia outer,42,Upper Austria outer,1,1,0,0,0,0,0,0,0,0,33,4,11,6,1,34,6,8,8,3
+9,Carinthia,5,Lower Austria,92,Carinthia outer,51,Lower Austria inner,5,0,0,3,0,4,1,3,0,0,15,0,3,5,1,16,5,5,2,2
+9,Carinthia,5,Lower Austria,92,Carinthia outer,52,Lower Austria outer,1,0,0,1,0,0,0,0,0,0,15,0,3,5,1,16,5,5,2,2
+9,Carinthia,7,Burgenland,92,Carinthia outer,71,Burgenland inner,2,1,1,0,0,0,0,0,0,0,5,1,3,1,0,7,3,0,2,0
+9,Carinthia,7,Burgenland,92,Carinthia outer,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,5,1,3,1,0,7,3,0,2,0
+9,Carinthia,8,Styria,92,Carinthia outer,81,Styria inner,19,4,6,0,2,17,6,8,2,0,40,10,13,1,4,69,19,26,10,2
+9,Carinthia,8,Styria,92,Carinthia outer,82,Styria outer,0,0,0,0,0,6,2,1,0,1,40,10,13,1,4,69,19,26,10,2
+9,Carinthia,9,Carinthia,92,Carinthia outer,91,Carinthia inner,973,234,235,192,49,1116,248,262,220,101,2623,554,655,533,130,3170,684,738,623,284
+9,Carinthia,9,Carinthia,92,Carinthia outer,92,Carinthia outer,419,92,99,83,18,461,93,116,85,39,2623,554,655,533,130,3170,684,738,623,284
+9,Carinthia,21,Vienna,92,Carinthia outer,211,Vienna inner,174,56,74,23,6,218,95,69,23,10,621,206,238,91,18,738,321,194,94,37
+9,Carinthia,21,Vienna,92,Carinthia outer,212,Vienna outer,18,1,5,3,0,20,3,5,3,5,621,206,238,91,18,738,321,194,94,37
+9,Carinthia,22,Graz,92,Carinthia outer,221,Graz inner,76,34,27,8,2,148,108,20,14,3,302,119,119,34,5,488,306,96,48,12
+9,Carinthia,22,Graz,92,Carinthia outer,222,Graz outer,9,0,4,2,3,7,0,5,1,0,302,119,119,34,5,488,306,96,48,12
+9,Carinthia,23,Linz,92,Carinthia outer,231,Linz inner,4,2,2,0,0,11,0,2,4,1,29,9,10,3,4,49,8,11,13,6
+9,Carinthia,23,Linz,92,Carinthia outer,232,Linz outer,3,2,0,0,0,2,2,0,0,0,29,9,10,3,4,49,8,11,13,6
+9,Carinthia,24,Salzburg,92,Carinthia outer,241,Salzburg inner,14,1,7,0,3,19,5,7,1,1,63,13,28,8,5,71,14,29,10,6
+9,Carinthia,24,Salzburg,92,Carinthia outer,242,Salzburg outer,4,0,2,2,0,7,0,3,2,1,63,13,28,8,5,71,14,29,10,6
+9,Carinthia,25,Innsbruck,92,Carinthia outer,251,Innsbruck inner,19,9,6,3,0,10,4,3,1,0,44,12,17,7,3,40,10,16,8,0
+9,Carinthia,25,Innsbruck,92,Carinthia outer,252,Innsbruck outer,1,0,1,0,0,2,0,0,2,0,44,12,17,7,3,40,10,16,8,0
+9,Carinthia,26,Klagenfurt,92,Carinthia outer,261,Klagenfurt inner,129,31,47,16,2,142,38,45,21,11,523,109,175,93,36,620,143,167,109,61
+9,Carinthia,26,Klagenfurt,92,Carinthia outer,262,Klagenfurt outer,40,8,11,10,5,45,5,3,11,9,523,109,175,93,36,620,143,167,109,61
+9,Carinthia,30,rural rest,92,Carinthia outer,30,rural rest,567,110,138,117,28,575,115,146,100,44,1421,287,371,284,76,1429,289,374,263,130
+21,Vienna,1,Vorarlberg,211,Vienna inner,11,Vorarlberg inner,365,64,141,77,21,500,122,175,104,18,431,74,158,93,25,583,137,205,120,22
+21,Vienna,1,Vorarlberg,211,Vienna inner,12,Vorarlberg outer,22,6,6,7,1,21,6,8,3,1,431,74,158,93,25,583,137,205,120,22
+21,Vienna,2,Tyrol,211,Vienna inner,21,Tyrol inner,79,18,22,15,11,144,35,43,30,6,103,18,33,19,13,177,41,48,39,7
+21,Vienna,2,Tyrol,211,Vienna inner,22,Tyrol outer,7,0,2,1,1,11,4,2,4,0,103,18,33,19,13,177,41,48,39,7
+21,Vienna,3,Salzburg,211,Vienna inner,31,Salzburg inner,9,5,3,1,0,24,7,8,7,1,10,6,3,1,0,31,8,11,7,1
+21,Vienna,4,Upper Austria,211,Vienna inner,41,Upper Austria inner,406,83,139,85,22,818,216,290,138,44,519,97,178,106,34,1032,273,362,174,50
+21,Vienna,4,Upper Austria,211,Vienna inner,42,Upper Austria outer,59,8,24,7,7,123,42,45,17,2,519,97,178,106,34,1032,273,362,174,50
+21,Vienna,5,Lower Austria,211,Vienna inner,51,Lower Austria inner,535,102,195,117,42,933,171,341,210,85,1088,186,330,228,110,1801,331,553,425,161
+21,Vienna,5,Lower Austria,211,Vienna inner,52,Lower Austria outer,292,36,72,49,44,400,70,112,98,30,1088,186,330,228,110,1801,331,553,425,161
+21,Vienna,7,Burgenland,211,Vienna inner,71,Burgenland inner,605,91,158,158,48,916,145,280,189,87,1182,207,316,255,101,1834,314,510,380,167
+21,Vienna,7,Burgenland,211,Vienna inner,72,Burgenland outer,101,9,27,18,18,147,16,44,27,26,1182,207,316,255,101,1834,314,510,380,167
+21,Vienna,8,Styria,211,Vienna inner,81,Styria inner,222,58,71,38,17,423,133,140,62,31,323,78,98,62,24,597,180,188,88,54
+21,Vienna,8,Styria,211,Vienna inner,82,Styria outer,50,8,13,13,3,70,18,23,10,13,323,78,98,62,24,597,180,188,88,54
+21,Vienna,9,Carinthia,211,Vienna inner,91,Carinthia inner,186,27,61,36,18,236,50,75,37,16,290,36,96,63,29,402,80,124,75,27
+21,Vienna,9,Carinthia,211,Vienna inner,92,Carinthia outer,71,9,29,16,7,118,26,39,28,6,290,36,96,63,29,402,80,124,75,27
+21,Vienna,21,Vienna,211,Vienna inner,211,Vienna inner,8123,1301,2296,1815,628,8582,1436,2177,2085,755,31226,5086,8176,7048,2577,36623,6335,9241,8476,3290
+21,Vienna,21,Vienna,211,Vienna inner,212,Vienna outer,9580,1017,2528,2351,947,12019,1404,3124,3047,1136,31226,5086,8176,7048,2577,36623,6335,9241,8476,3290
+21,Vienna,22,Graz,211,Vienna inner,221,Graz inner,517,108,200,111,33,974,246,366,182,51,668,143,244,143,46,1379,321,442,257,77
+21,Vienna,22,Graz,211,Vienna inner,222,Graz outer,92,26,29,16,7,153,27,47,35,12,668,143,244,143,46,1379,321,442,257,77
+21,Vienna,23,Linz,211,Vienna inner,231,Linz inner,501,99,198,111,24,774,215,311,122,39,740,141,277,154,34,1243,342,466,209,60
+21,Vienna,23,Linz,211,Vienna inner,232,Linz outer,178,30,63,29,7,321,99,116,60,7,740,141,277,154,34,1243,342,466,209,60
+21,Vienna,24,Salzburg,211,Vienna inner,241,Salzburg inner,495,68,193,115,39,671,184,264,107,30,663,97,246,149,55,949,235,366,168,43
+21,Vienna,24,Salzburg,211,Vienna inner,242,Salzburg outer,98,16,37,21,6,185,32,70,41,8,663,97,246,149,55,949,235,366,168,43
+21,Vienna,25,Innsbruck,211,Vienna inner,251,Innsbruck inner,284,76,98,57,10,506,136,202,92,28,328,86,111,67,12,586,161,224,107,35
+21,Vienna,25,Innsbruck,211,Vienna inner,252,Innsbruck outer,30,4,10,8,2,31,6,14,5,2,328,86,111,67,12,586,161,224,107,35
+21,Vienna,26,Klagenfurt,211,Vienna inner,261,Klagenfurt inner,196,33,79,45,12,471,138,178,67,37,303,43,110,76,24,634,164,221,105,57
+21,Vienna,26,Klagenfurt,211,Vienna inner,262,Klagenfurt outer,68,6,24,20,5,114,25,27,28,13,303,43,110,76,24,634,164,221,105,57
+21,Vienna,30,rural rest,211,Vienna inner,30,rural rest,8130,1059,1943,1775,1121,9578,1546,2550,1926,1310,11121,1557,2675,2381,1346,14058,2332,3510,2834,1785
+21,Vienna,1,Vorarlberg,212,Vienna outer,11,Vorarlberg inner,37,4,9,7,3,55,9,18,12,3,431,74,158,93,25,583,137,205,120,22
+21,Vienna,1,Vorarlberg,212,Vienna outer,12,Vorarlberg outer,7,0,2,2,0,7,0,4,1,0,431,74,158,93,25,583,137,205,120,22
+21,Vienna,2,Tyrol,212,Vienna outer,21,Tyrol inner,17,0,9,3,1,22,2,3,5,1,103,18,33,19,13,177,41,48,39,7
+21,Vienna,2,Tyrol,212,Vienna outer,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,103,18,33,19,13,177,41,48,39,7
+21,Vienna,3,Salzburg,212,Vienna outer,31,Salzburg inner,1,1,0,0,0,7,1,3,0,0,10,6,3,1,0,31,8,11,7,1
+21,Vienna,4,Upper Austria,212,Vienna outer,41,Upper Austria inner,46,6,14,11,3,84,15,24,17,4,519,97,178,106,34,1032,273,362,174,50
+21,Vienna,4,Upper Austria,212,Vienna outer,42,Upper Austria outer,8,0,1,3,2,7,0,3,2,0,519,97,178,106,34,1032,273,362,174,50
+21,Vienna,5,Lower Austria,212,Vienna outer,51,Lower Austria inner,126,29,28,34,14,314,55,60,83,31,1088,186,330,228,110,1801,331,553,425,161
+21,Vienna,5,Lower Austria,212,Vienna outer,52,Lower Austria outer,135,19,35,28,10,154,35,40,34,15,1088,186,330,228,110,1801,331,553,425,161
+21,Vienna,7,Burgenland,212,Vienna outer,71,Burgenland inner,446,102,127,72,28,705,151,172,137,48,1182,207,316,255,101,1834,314,510,380,167
+21,Vienna,7,Burgenland,212,Vienna outer,72,Burgenland outer,30,5,4,7,7,66,2,14,27,6,1182,207,316,255,101,1834,314,510,380,167
+21,Vienna,8,Styria,212,Vienna outer,81,Styria inner,39,11,10,8,3,93,28,22,14,9,323,78,98,62,24,597,180,188,88,54
+21,Vienna,8,Styria,212,Vienna outer,82,Styria outer,12,1,4,3,1,11,1,3,2,1,323,78,98,62,24,597,180,188,88,54
+21,Vienna,9,Carinthia,212,Vienna outer,91,Carinthia inner,23,0,6,9,1,22,2,6,2,2,290,36,96,63,29,402,80,124,75,27
+21,Vienna,9,Carinthia,212,Vienna outer,92,Carinthia outer,10,0,0,2,3,26,2,4,8,3,290,36,96,63,29,402,80,124,75,27
+21,Vienna,21,Vienna,212,Vienna outer,211,Vienna inner,6812,1577,1703,1491,588,7763,2000,2006,1559,666,31226,5086,8176,7048,2577,36623,6335,9241,8476,3290
+21,Vienna,21,Vienna,212,Vienna outer,212,Vienna outer,6711,1191,1649,1391,414,8259,1495,1934,1785,733,31226,5086,8176,7048,2577,36623,6335,9241,8476,3290
+21,Vienna,22,Graz,212,Vienna outer,221,Graz inner,46,9,13,11,6,184,42,23,29,11,668,143,244,143,46,1379,321,442,257,77
+21,Vienna,22,Graz,212,Vienna outer,222,Graz outer,13,0,2,5,0,68,6,6,11,3,668,143,244,143,46,1379,321,442,257,77
+21,Vienna,23,Linz,212,Vienna outer,231,Linz inner,45,9,11,11,3,105,19,30,19,11,740,141,277,154,34,1243,342,466,209,60
+21,Vienna,23,Linz,212,Vienna outer,232,Linz outer,16,3,5,3,0,43,9,9,8,3,740,141,277,154,34,1243,342,466,209,60
+21,Vienna,24,Salzburg,212,Vienna outer,241,Salzburg inner,43,8,11,7,7,77,15,26,17,5,663,97,246,149,55,949,235,366,168,43
+21,Vienna,24,Salzburg,212,Vienna outer,242,Salzburg outer,27,5,5,6,3,16,4,6,3,0,663,97,246,149,55,949,235,366,168,43
+21,Vienna,25,Innsbruck,212,Vienna outer,251,Innsbruck inner,11,5,2,1,0,41,18,7,9,3,328,86,111,67,12,586,161,224,107,35
+21,Vienna,25,Innsbruck,212,Vienna outer,252,Innsbruck outer,3,1,1,1,0,8,1,1,1,2,328,86,111,67,12,586,161,224,107,35
+21,Vienna,26,Klagenfurt,212,Vienna outer,261,Klagenfurt inner,28,4,6,7,6,33,1,11,6,5,303,43,110,76,24,634,164,221,105,57
+21,Vienna,26,Klagenfurt,212,Vienna outer,262,Klagenfurt outer,11,0,1,4,1,16,0,5,4,2,303,43,110,76,24,634,164,221,105,57
+21,Vienna,30,rural rest,212,Vienna outer,30,rural rest,2991,498,732,606,225,4480,786,960,908,475,11121,1557,2675,2381,1346,14058,2332,3510,2834,1785
+22,Graz,1,Vorarlberg,221,Graz inner,11,Vorarlberg inner,69,9,26,15,3,98,25,42,17,2,88,11,34,18,5,109,29,46,18,3
+22,Graz,1,Vorarlberg,221,Graz inner,12,Vorarlberg outer,4,0,2,0,0,2,0,2,0,0,88,11,34,18,5,109,29,46,18,3
+22,Graz,2,Tyrol,221,Graz inner,21,Tyrol inner,12,4,6,2,0,47,15,19,3,0,20,6,11,2,0,56,20,21,5,0
+22,Graz,2,Tyrol,221,Graz inner,22,Tyrol outer,3,1,1,0,0,5,2,2,1,0,20,6,11,2,0,56,20,21,5,0
+22,Graz,3,Salzburg,221,Graz inner,31,Salzburg inner,10,1,6,1,0,17,7,8,1,1,14,2,6,1,2,25,9,8,5,1
+22,Graz,4,Upper Austria,221,Graz inner,41,Upper Austria inner,65,7,33,17,3,154,48,66,14,5,83,12,39,22,3,214,69,84,26,6
+22,Graz,4,Upper Austria,221,Graz inner,42,Upper Austria outer,5,3,1,1,0,35,17,15,3,0,83,12,39,22,3,214,69,84,26,6
+22,Graz,5,Lower Austria,221,Graz inner,51,Lower Austria inner,32,8,10,6,2,56,12,23,13,2,44,10,15,9,2,87,23,30,20,3
+22,Graz,5,Lower Austria,221,Graz inner,52,Lower Austria outer,8,2,2,3,0,19,9,6,2,0,44,10,15,9,2,87,23,30,20,3
+22,Graz,7,Burgenland,221,Graz inner,71,Burgenland inner,21,7,5,5,1,39,10,10,9,2,28,11,8,5,1,54,12,12,11,5
+22,Graz,7,Burgenland,221,Graz inner,72,Burgenland outer,1,0,1,0,0,0,0,0,0,0,28,11,8,5,1,54,12,12,11,5
+22,Graz,8,Styria,221,Graz inner,81,Styria inner,534,126,182,101,26,910,235,292,159,54,1243,289,394,226,60,1801,451,536,307,127
+22,Graz,8,Styria,221,Graz inner,82,Styria outer,155,30,60,29,5,191,65,69,22,9,1243,289,394,226,60,1801,451,536,307,127
+22,Graz,9,Carinthia,221,Graz inner,91,Carinthia inner,90,8,48,15,6,205,75,87,21,8,127,17,60,23,8,297,106,117,30,13
+22,Graz,9,Carinthia,221,Graz inner,92,Carinthia outer,27,6,10,6,1,69,28,26,6,3,127,17,60,23,8,297,106,117,30,13
+22,Graz,21,Vienna,221,Graz inner,211,Vienna inner,1006,214,483,163,37,1606,496,629,255,60,1265,278,589,207,49,1929,584,723,316,84
+22,Graz,21,Vienna,221,Graz inner,212,Vienna outer,79,13,18,22,8,96,17,23,27,9,1265,278,589,207,49,1929,584,723,316,84
+22,Graz,22,Graz,221,Graz inner,221,Graz inner,2665,471,728,594,157,3657,731,1032,743,280,8859,1681,2440,1840,512,11839,2442,3275,2310,829
+22,Graz,22,Graz,221,Graz inner,222,Graz outer,2379,340,637,519,162,3034,465,877,641,205,8859,1681,2440,1840,512,11839,2442,3275,2310,829
+22,Graz,23,Linz,221,Graz inner,231,Linz inner,131,31,55,23,2,195,58,77,27,11,187,41,76,31,3,300,91,119,40,16
+22,Graz,23,Linz,221,Graz inner,232,Linz outer,33,7,12,4,1,82,27,37,8,2,187,41,76,31,3,300,91,119,40,16
+22,Graz,24,Salzburg,221,Graz inner,241,Salzburg inner,92,18,45,14,3,149,44,69,18,8,149,28,69,22,3,210,62,91,30,10
+22,Graz,24,Salzburg,221,Graz inner,242,Salzburg outer,26,4,14,4,0,44,15,17,6,2,149,28,69,22,3,210,62,91,30,10
+22,Graz,25,Innsbruck,221,Graz inner,251,Innsbruck inner,74,18,35,13,3,90,34,33,16,4,90,22,42,15,3,115,35,45,22,6
+22,Graz,25,Innsbruck,221,Graz inner,252,Innsbruck outer,4,2,1,1,0,10,0,5,1,2,90,22,42,15,3,115,35,45,22,6
+22,Graz,26,Klagenfurt,221,Graz inner,261,Klagenfurt inner,127,25,62,19,5,232,86,101,20,8,189,36,89,28,9,313,110,119,36,13
+22,Graz,26,Klagenfurt,221,Graz inner,262,Klagenfurt outer,44,5,19,8,2,58,19,16,7,3,189,36,89,28,9,313,110,119,36,13
+22,Graz,30,rural rest,221,Graz inner,30,rural rest,1850,392,581,329,125,3059,939,994,437,209,3033,654,915,506,184,4693,1256,1407,765,342
+22,Graz,1,Vorarlberg,222,Graz outer,11,Vorarlberg inner,12,2,6,2,0,8,3,2,1,1,88,11,34,18,5,109,29,46,18,3
+22,Graz,1,Vorarlberg,222,Graz outer,12,Vorarlberg outer,3,0,0,1,2,1,1,0,0,0,88,11,34,18,5,109,29,46,18,3
+22,Graz,2,Tyrol,222,Graz outer,21,Tyrol inner,4,1,3,0,0,4,3,0,1,0,20,6,11,2,0,56,20,21,5,0
+22,Graz,2,Tyrol,222,Graz outer,22,Tyrol outer,1,0,1,0,0,0,0,0,0,0,20,6,11,2,0,56,20,21,5,0
+22,Graz,3,Salzburg,222,Graz outer,31,Salzburg inner,4,1,0,0,2,8,2,0,4,0,14,2,6,1,2,25,9,8,5,1
+22,Graz,4,Upper Austria,222,Graz outer,41,Upper Austria inner,10,1,4,3,0,23,3,3,8,1,83,12,39,22,3,214,69,84,26,6
+22,Graz,4,Upper Austria,222,Graz outer,42,Upper Austria outer,3,1,1,1,0,2,1,0,1,0,83,12,39,22,3,214,69,84,26,6
+22,Graz,5,Lower Austria,222,Graz outer,51,Lower Austria inner,3,0,3,0,0,5,2,0,2,1,44,10,15,9,2,87,23,30,20,3
+22,Graz,5,Lower Austria,222,Graz outer,52,Lower Austria outer,1,0,0,0,0,7,0,1,3,0,44,10,15,9,2,87,23,30,20,3
+22,Graz,7,Burgenland,222,Graz outer,71,Burgenland inner,6,4,2,0,0,10,2,1,1,3,28,11,8,5,1,54,12,12,11,5
+22,Graz,7,Burgenland,222,Graz outer,72,Burgenland outer,0,0,0,0,0,5,0,1,1,0,28,11,8,5,1,54,12,12,11,5
+22,Graz,8,Styria,222,Graz outer,81,Styria inner,478,118,130,78,27,610,140,147,112,55,1243,289,394,226,60,1801,451,536,307,127
+22,Graz,8,Styria,222,Graz outer,82,Styria outer,76,15,22,18,2,90,11,28,14,9,1243,289,394,226,60,1801,451,536,307,127
+22,Graz,9,Carinthia,222,Graz outer,91,Carinthia inner,6,3,1,0,1,13,2,2,2,1,127,17,60,23,8,297,106,117,30,13
+22,Graz,9,Carinthia,222,Graz outer,92,Carinthia outer,4,0,1,2,0,10,1,2,1,1,127,17,60,23,8,297,106,117,30,13
+22,Graz,21,Vienna,222,Graz outer,211,Vienna inner,164,44,81,21,4,209,68,66,32,13,1265,278,589,207,49,1929,584,723,316,84
+22,Graz,21,Vienna,222,Graz outer,212,Vienna outer,16,7,7,1,0,18,3,5,2,2,1265,278,589,207,49,1929,584,723,316,84
+22,Graz,22,Graz,222,Graz outer,221,Graz inner,1820,437,497,377,114,2601,770,666,452,174,8859,1681,2440,1840,512,11839,2442,3275,2310,829
+22,Graz,22,Graz,222,Graz outer,222,Graz outer,1995,433,578,350,79,2547,476,700,474,170,8859,1681,2440,1840,512,11839,2442,3275,2310,829
+22,Graz,23,Linz,222,Graz outer,231,Linz inner,18,2,7,4,0,16,3,5,3,3,187,41,76,31,3,300,91,119,40,16
+22,Graz,23,Linz,222,Graz outer,232,Linz outer,5,1,2,0,0,7,3,0,2,0,187,41,76,31,3,300,91,119,40,16
+22,Graz,24,Salzburg,222,Graz outer,241,Salzburg inner,23,6,7,4,0,16,3,5,6,0,149,28,69,22,3,210,62,91,30,10
+22,Graz,24,Salzburg,222,Graz outer,242,Salzburg outer,8,0,3,0,0,1,0,0,0,0,149,28,69,22,3,210,62,91,30,10
+22,Graz,25,Innsbruck,222,Graz outer,251,Innsbruck inner,11,2,6,1,0,14,0,7,5,0,90,22,42,15,3,115,35,45,22,6
+22,Graz,25,Innsbruck,222,Graz outer,252,Innsbruck outer,1,0,0,0,0,1,1,0,0,0,90,22,42,15,3,115,35,45,22,6
+22,Graz,26,Klagenfurt,222,Graz outer,261,Klagenfurt inner,12,5,4,0,2,17,4,1,6,2,189,36,89,28,9,313,110,119,36,13
+22,Graz,26,Klagenfurt,222,Graz outer,262,Klagenfurt outer,6,1,4,1,0,6,1,1,3,0,189,36,89,28,9,313,110,119,36,13
+22,Graz,30,rural rest,222,Graz outer,30,rural rest,1183,262,334,177,59,1634,317,413,328,133,3033,654,915,506,184,4693,1256,1407,765,342
+23,Linz,1,Vorarlberg,231,Linz inner,11,Vorarlberg inner,44,8,19,9,1,64,10,17,15,0,64,11,25,16,1,71,12,18,18,1
+23,Linz,1,Vorarlberg,231,Linz inner,12,Vorarlberg outer,2,0,0,2,0,0,0,0,0,0,64,11,25,16,1,71,12,18,18,1
+23,Linz,2,Tyrol,231,Linz inner,21,Tyrol inner,6,2,3,0,0,20,2,11,7,0,10,3,5,1,0,26,2,14,7,3
+23,Linz,2,Tyrol,231,Linz inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,10,3,5,1,0,26,2,14,7,3
+23,Linz,3,Salzburg,231,Linz inner,31,Salzburg inner,2,1,0,1,0,3,1,2,0,0,5,1,3,1,0,3,1,2,0,0
+23,Linz,4,Upper Austria,231,Linz inner,41,Upper Austria inner,677,168,216,119,29,808,167,247,177,59,1227,275,374,230,71,1434,305,425,317,117
+23,Linz,4,Upper Austria,231,Linz inner,42,Upper Austria outer,148,24,39,34,14,174,32,66,29,20,1227,275,374,230,71,1434,305,425,317,117
+23,Linz,5,Lower Austria,231,Linz inner,51,Lower Austria inner,48,7,22,9,2,74,9,36,10,4,124,30,43,22,6,246,45,85,42,17
+23,Linz,5,Lower Austria,231,Linz inner,52,Lower Austria outer,33,10,10,4,3,84,16,23,16,8,124,30,43,22,6,246,45,85,42,17
+23,Linz,7,Burgenland,231,Linz inner,71,Burgenland inner,11,2,3,3,0,10,0,6,2,1,19,3,6,4,2,19,3,9,2,1
+23,Linz,7,Burgenland,231,Linz inner,72,Burgenland outer,1,0,0,0,0,2,0,0,0,0,19,3,6,4,2,19,3,9,2,1
+23,Linz,8,Styria,231,Linz inner,81,Styria inner,26,5,8,4,2,34,15,8,5,1,52,11,13,12,4,61,26,12,12,3
+23,Linz,8,Styria,231,Linz inner,82,Styria outer,11,3,1,5,2,12,2,2,5,0,52,11,13,12,4,61,26,12,12,3
+23,Linz,9,Carinthia,231,Linz inner,91,Carinthia inner,15,4,4,3,3,17,5,2,5,4,37,6,13,6,3,31,8,5,7,7
+23,Linz,9,Carinthia,231,Linz inner,92,Carinthia outer,7,1,2,0,0,3,0,0,1,1,37,6,13,6,3,31,8,5,7,7
+23,Linz,21,Vienna,231,Linz inner,211,Vienna inner,804,223,339,137,25,1182,485,390,130,61,1185,347,513,182,35,1745,741,568,190,80
+23,Linz,21,Vienna,231,Linz inner,212,Vienna outer,66,10,33,12,4,59,6,15,17,6,1185,347,513,182,35,1745,741,568,190,80
+23,Linz,22,Graz,231,Linz inner,221,Graz inner,106,38,36,13,3,149,64,42,16,11,177,62,57,24,8,264,128,61,32,14
+23,Linz,22,Graz,231,Linz inner,222,Graz outer,7,0,2,3,1,23,0,6,7,2,177,62,57,24,8,264,128,61,32,14
+23,Linz,23,Linz,231,Linz inner,231,Linz inner,2757,600,798,614,159,3692,729,1118,766,315,9957,2101,2895,2097,530,12675,2587,3738,2601,979
+23,Linz,23,Linz,231,Linz inner,232,Linz outer,2719,410,836,631,161,3135,456,1058,715,226,9957,2101,2895,2097,530,12675,2587,3738,2601,979
+23,Linz,24,Salzburg,231,Linz inner,241,Salzburg inner,130,22,60,27,11,132,37,47,23,8,208,42,89,39,15,229,60,86,38,14
+23,Linz,24,Salzburg,231,Linz inner,242,Salzburg outer,29,4,9,6,3,31,6,16,4,1,208,42,89,39,15,229,60,86,38,14
+23,Linz,25,Innsbruck,231,Linz inner,251,Innsbruck inner,65,24,26,8,3,88,35,33,10,1,118,37,46,15,7,132,53,50,14,3
+23,Linz,25,Innsbruck,231,Linz inner,252,Innsbruck outer,14,1,3,7,1,5,1,2,0,2,118,37,46,15,7,132,53,50,14,3
+23,Linz,26,Klagenfurt,231,Linz inner,261,Klagenfurt inner,17,4,9,1,0,27,9,7,7,0,28,11,9,3,2,50,14,13,11,3
+23,Linz,26,Klagenfurt,231,Linz inner,262,Klagenfurt outer,4,3,0,0,1,5,0,1,1,2,28,11,9,3,2,50,14,13,11,3
+23,Linz,30,rural rest,231,Linz inner,30,rural rest,1691,331,455,374,136,2089,417,683,367,183,3068,628,830,599,194,3710,752,1126,640,346
+23,Linz,1,Vorarlberg,232,Linz outer,11,Vorarlberg inner,17,3,5,5,0,7,2,1,3,1,64,11,25,16,1,71,12,18,18,1
+23,Linz,1,Vorarlberg,232,Linz outer,12,Vorarlberg outer,1,0,1,0,0,0,0,0,0,0,64,11,25,16,1,71,12,18,18,1
+23,Linz,2,Tyrol,232,Linz outer,21,Tyrol inner,4,1,2,1,0,6,0,3,0,3,10,3,5,1,0,26,2,14,7,3
+23,Linz,2,Tyrol,232,Linz outer,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,10,3,5,1,0,26,2,14,7,3
+23,Linz,3,Salzburg,232,Linz outer,31,Salzburg inner,3,0,3,0,0,0,0,0,0,0,5,1,3,1,0,3,1,2,0,0
+23,Linz,4,Upper Austria,232,Linz outer,41,Upper Austria inner,295,59,92,56,23,316,79,72,82,28,1227,275,374,230,71,1434,305,425,317,117
+23,Linz,4,Upper Austria,232,Linz outer,42,Upper Austria outer,107,24,27,21,5,136,27,40,29,10,1227,275,374,230,71,1434,305,425,317,117
+23,Linz,5,Lower Austria,232,Linz outer,51,Lower Austria inner,13,4,3,4,0,24,8,8,3,1,124,30,43,22,6,246,45,85,42,17
+23,Linz,5,Lower Austria,232,Linz outer,52,Lower Austria outer,30,9,8,5,1,64,12,18,13,4,124,30,43,22,6,246,45,85,42,17
+23,Linz,7,Burgenland,232,Linz outer,71,Burgenland inner,7,1,3,1,2,6,3,2,0,0,19,3,6,4,2,19,3,9,2,1
+23,Linz,7,Burgenland,232,Linz outer,72,Burgenland outer,0,0,0,0,0,1,0,1,0,0,19,3,6,4,2,19,3,9,2,1
+23,Linz,8,Styria,232,Linz outer,81,Styria inner,15,3,4,3,0,12,8,2,1,1,52,11,13,12,4,61,26,12,12,3
+23,Linz,8,Styria,232,Linz outer,82,Styria outer,0,0,0,0,0,3,1,0,1,1,52,11,13,12,4,61,26,12,12,3
+23,Linz,9,Carinthia,232,Linz outer,91,Carinthia inner,9,1,6,0,0,7,3,3,0,0,37,6,13,6,3,31,8,5,7,7
+23,Linz,9,Carinthia,232,Linz outer,92,Carinthia outer,6,0,1,3,0,4,0,0,1,2,37,6,13,6,3,31,8,5,7,7
+23,Linz,21,Vienna,232,Linz outer,211,Vienna inner,291,109,133,28,5,481,245,157,38,11,1185,347,513,182,35,1745,741,568,190,80
+23,Linz,21,Vienna,232,Linz outer,212,Vienna outer,24,5,8,5,1,23,5,6,5,2,1185,347,513,182,35,1745,741,568,190,80
+23,Linz,22,Graz,232,Linz outer,221,Graz inner,60,22,18,8,3,85,61,12,7,1,177,62,57,24,8,264,128,61,32,14
+23,Linz,22,Graz,232,Linz outer,222,Graz outer,4,2,1,0,1,7,3,1,2,0,177,62,57,24,8,264,128,61,32,14
+23,Linz,23,Linz,232,Linz outer,231,Linz inner,2201,620,633,427,115,2833,797,739,540,236,9957,2101,2895,2097,530,12675,2587,3738,2601,979
+23,Linz,23,Linz,232,Linz outer,232,Linz outer,2280,471,628,425,95,3015,605,823,580,202,9957,2101,2895,2097,530,12675,2587,3738,2601,979
+23,Linz,24,Salzburg,232,Linz outer,241,Salzburg inner,41,14,16,6,1,46,15,20,4,1,208,42,89,39,15,229,60,86,38,14
+23,Linz,24,Salzburg,232,Linz outer,242,Salzburg outer,8,2,4,0,0,20,2,3,7,4,208,42,89,39,15,229,60,86,38,14
+23,Linz,25,Innsbruck,232,Linz outer,251,Innsbruck inner,27,10,12,0,2,36,15,15,3,0,118,37,46,15,7,132,53,50,14,3
+23,Linz,25,Innsbruck,232,Linz outer,252,Innsbruck outer,12,2,5,0,1,3,2,0,1,0,118,37,46,15,7,132,53,50,14,3
+23,Linz,26,Klagenfurt,232,Linz outer,261,Klagenfurt inner,6,4,0,2,0,13,4,5,2,1,28,11,9,3,2,50,14,13,11,3
+23,Linz,26,Klagenfurt,232,Linz outer,262,Klagenfurt outer,1,0,0,0,1,5,1,0,1,0,28,11,9,3,2,50,14,13,11,3
+23,Linz,30,rural rest,232,Linz outer,30,rural rest,1377,297,375,225,58,1621,335,443,273,163,3068,628,830,599,194,3710,752,1126,640,346
+24,Salzburg,1,Vorarlberg,241,Salzburg inner,11,Vorarlberg inner,46,7,16,11,5,49,12,10,14,0,69,10,23,17,6,69,17,15,18,5
+24,Salzburg,1,Vorarlberg,241,Salzburg inner,12,Vorarlberg outer,4,1,1,0,0,6,1,3,1,1,69,10,23,17,6,69,17,15,18,5
+24,Salzburg,2,Tyrol,241,Salzburg inner,21,Tyrol inner,26,5,8,5,3,34,7,9,11,3,28,7,8,5,3,56,10,16,14,4
+24,Salzburg,2,Tyrol,241,Salzburg inner,22,Tyrol outer,1,1,0,0,0,5,0,2,1,1,28,7,8,5,3,56,10,16,14,4
+24,Salzburg,3,Salzburg,241,Salzburg inner,31,Salzburg inner,62,23,17,12,1,57,15,22,10,4,99,30,31,21,3,83,23,30,14,6
+24,Salzburg,4,Upper Austria,241,Salzburg inner,41,Upper Austria inner,164,38,51,29,11,198,41,69,32,19,277,62,86,47,17,298,60,101,56,33
+24,Salzburg,4,Upper Austria,241,Salzburg inner,42,Upper Austria outer,32,4,10,6,3,29,7,11,4,4,277,62,86,47,17,298,60,101,56,33
+24,Salzburg,5,Lower Austria,241,Salzburg inner,51,Lower Austria inner,15,3,5,2,1,28,7,13,4,3,23,4,7,4,1,45,10,20,7,6
+24,Salzburg,5,Lower Austria,241,Salzburg inner,52,Lower Austria outer,2,0,1,1,0,11,3,3,2,2,23,4,7,4,1,45,10,20,7,6
+24,Salzburg,7,Burgenland,241,Salzburg inner,71,Burgenland inner,11,1,4,2,1,9,1,5,0,3,14,1,6,3,1,17,2,5,1,4
+24,Salzburg,7,Burgenland,241,Salzburg inner,72,Burgenland outer,1,0,0,1,0,1,1,0,0,0,14,1,6,3,1,17,2,5,1,4
+24,Salzburg,8,Styria,241,Salzburg inner,81,Styria inner,19,7,6,4,1,28,13,10,1,2,36,12,10,9,3,62,23,16,7,5
+24,Salzburg,8,Styria,241,Salzburg inner,82,Styria outer,6,0,2,3,0,6,1,1,1,1,36,12,10,9,3,62,23,16,7,5
+24,Salzburg,9,Carinthia,241,Salzburg inner,91,Carinthia inner,31,4,9,5,5,45,1,19,8,4,52,6,15,9,9,80,8,28,15,8
+24,Salzburg,9,Carinthia,241,Salzburg inner,92,Carinthia outer,10,1,3,2,2,21,6,5,5,0,52,6,15,9,9,80,8,28,15,8
+24,Salzburg,21,Vienna,241,Salzburg inner,211,Vienna inner,783,222,310,124,55,995,354,362,137,52,1005,284,391,163,65,1330,488,444,197,72
+24,Salzburg,21,Vienna,241,Salzburg inner,212,Vienna outer,39,5,15,8,5,73,11,18,22,9,1005,284,391,163,65,1330,488,444,197,72
+24,Salzburg,22,Graz,241,Salzburg inner,221,Graz inner,105,23,53,18,3,178,78,50,20,14,174,34,73,31,10,294,130,68,38,25
+24,Salzburg,22,Graz,241,Salzburg inner,222,Graz outer,22,3,3,4,3,27,4,3,4,7,174,34,73,31,10,294,130,68,38,25
+24,Salzburg,23,Linz,241,Salzburg inner,231,Linz inner,119,26,50,22,4,143,38,53,25,9,222,59,77,41,7,275,70,92,58,15
+24,Salzburg,23,Linz,241,Salzburg inner,232,Linz outer,39,10,9,12,2,66,15,21,17,4,222,59,77,41,7,275,70,92,58,15
+24,Salzburg,24,Salzburg,241,Salzburg inner,241,Salzburg inner,2735,545,771,576,191,3258,567,998,715,309,6968,1401,1978,1422,474,8333,1492,2572,1726,761
+24,Salzburg,24,Salzburg,241,Salzburg inner,242,Salzburg outer,1503,241,451,312,126,1766,265,554,386,172,6968,1401,1978,1422,474,8333,1492,2572,1726,761
+24,Salzburg,25,Innsbruck,241,Salzburg inner,251,Innsbruck inner,108,34,48,15,2,131,60,41,15,2,151,52,62,21,4,190,91,55,22,4
+24,Salzburg,25,Innsbruck,241,Salzburg inner,252,Innsbruck outer,5,1,1,3,0,16,1,5,5,1,151,52,62,21,4,190,91,55,22,4
+24,Salzburg,26,Klagenfurt,241,Salzburg inner,261,Klagenfurt inner,20,2,7,7,1,41,6,14,9,4,41,5,13,8,4,63,9,22,11,8
+24,Salzburg,26,Klagenfurt,241,Salzburg inner,262,Klagenfurt outer,10,0,2,0,3,9,0,6,0,2,41,5,13,8,4,63,9,22,11,8
+24,Salzburg,30,rural rest,241,Salzburg inner,30,rural rest,1281,250,381,270,116,1477,244,440,311,176,2075,425,617,394,160,2378,415,707,496,256
+24,Salzburg,1,Vorarlberg,242,Salzburg outer,11,Vorarlberg inner,19,2,6,6,1,14,4,2,3,4,69,10,23,17,6,69,17,15,18,5
+24,Salzburg,1,Vorarlberg,242,Salzburg outer,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,69,10,23,17,6,69,17,15,18,5
+24,Salzburg,2,Tyrol,242,Salzburg outer,21,Tyrol inner,1,1,0,0,0,11,3,4,1,0,28,7,8,5,3,56,10,16,14,4
+24,Salzburg,2,Tyrol,242,Salzburg outer,22,Tyrol outer,0,0,0,0,0,6,0,1,1,0,28,7,8,5,3,56,10,16,14,4
+24,Salzburg,3,Salzburg,242,Salzburg outer,31,Salzburg inner,37,7,14,9,2,26,8,8,4,2,99,30,31,21,3,83,23,30,14,6
+24,Salzburg,4,Upper Austria,242,Salzburg outer,41,Upper Austria inner,69,17,21,11,3,63,11,18,18,8,277,62,86,47,17,298,60,101,56,33
+24,Salzburg,4,Upper Austria,242,Salzburg outer,42,Upper Austria outer,12,3,4,1,0,8,1,3,2,2,277,62,86,47,17,298,60,101,56,33
+24,Salzburg,5,Lower Austria,242,Salzburg outer,51,Lower Austria inner,3,0,1,0,0,4,0,2,1,1,23,4,7,4,1,45,10,20,7,6
+24,Salzburg,5,Lower Austria,242,Salzburg outer,52,Lower Austria outer,3,1,0,1,0,2,0,2,0,0,23,4,7,4,1,45,10,20,7,6
+24,Salzburg,7,Burgenland,242,Salzburg outer,71,Burgenland inner,0,0,0,0,0,4,0,0,0,1,14,1,6,3,1,17,2,5,1,4
+24,Salzburg,7,Burgenland,242,Salzburg outer,72,Burgenland outer,2,0,2,0,0,3,0,0,1,0,14,1,6,3,1,17,2,5,1,4
+24,Salzburg,8,Styria,242,Salzburg outer,81,Styria inner,7,2,2,1,2,26,8,5,4,2,36,12,10,9,3,62,23,16,7,5
+24,Salzburg,8,Styria,242,Salzburg outer,82,Styria outer,4,3,0,1,0,2,1,0,1,0,36,12,10,9,3,62,23,16,7,5
+24,Salzburg,9,Carinthia,242,Salzburg outer,91,Carinthia inner,10,0,3,2,2,11,1,3,2,3,52,6,15,9,9,80,8,28,15,8
+24,Salzburg,9,Carinthia,242,Salzburg outer,92,Carinthia outer,1,1,0,0,0,3,0,1,0,1,52,6,15,9,9,80,8,28,15,8
+24,Salzburg,21,Vienna,242,Salzburg outer,211,Vienna inner,163,49,60,30,5,245,119,62,32,9,1005,284,391,163,65,1330,488,444,197,72
+24,Salzburg,21,Vienna,242,Salzburg outer,212,Vienna outer,20,8,6,1,0,17,4,2,6,2,1005,284,391,163,65,1330,488,444,197,72
+24,Salzburg,22,Graz,242,Salzburg outer,221,Graz inner,41,8,16,6,4,77,48,13,7,4,174,34,73,31,10,294,130,68,38,25
+24,Salzburg,22,Graz,242,Salzburg outer,222,Graz outer,6,0,1,3,0,12,0,2,7,0,174,34,73,31,10,294,130,68,38,25
+24,Salzburg,23,Linz,242,Salzburg outer,231,Linz inner,52,20,13,5,1,50,13,15,10,1,222,59,77,41,7,275,70,92,58,15
+24,Salzburg,23,Linz,242,Salzburg outer,232,Linz outer,12,3,5,2,0,16,4,3,6,1,222,59,77,41,7,275,70,92,58,15
+24,Salzburg,24,Salzburg,242,Salzburg outer,241,Salzburg inner,1512,325,410,346,85,1713,354,533,329,167,6968,1401,1978,1422,474,8333,1492,2572,1726,761
+24,Salzburg,24,Salzburg,242,Salzburg outer,242,Salzburg outer,1218,290,346,188,72,1596,306,487,296,113,6968,1401,1978,1422,474,8333,1492,2572,1726,761
+24,Salzburg,25,Innsbruck,242,Salzburg outer,251,Innsbruck inner,33,16,10,3,1,41,30,8,1,1,151,52,62,21,4,190,91,55,22,4
+24,Salzburg,25,Innsbruck,242,Salzburg outer,252,Innsbruck outer,5,1,3,0,1,2,0,1,1,0,151,52,62,21,4,190,91,55,22,4
+24,Salzburg,26,Klagenfurt,242,Salzburg outer,261,Klagenfurt inner,7,2,4,0,0,10,1,2,2,2,41,5,13,8,4,63,9,22,11,8
+24,Salzburg,26,Klagenfurt,242,Salzburg outer,262,Klagenfurt outer,4,1,0,1,0,3,2,0,0,0,41,5,13,8,4,63,9,22,11,8
+24,Salzburg,30,rural rest,242,Salzburg outer,30,rural rest,794,175,236,124,44,901,171,267,185,80,2075,425,617,394,160,2378,415,707,496,256
+25,Innsbruck,1,Vorarlberg,251,Innsbruck inner,11,Vorarlberg inner,151,33,61,24,7,346,154,120,44,7,171,37,68,30,7,388,164,133,52,8
+25,Innsbruck,1,Vorarlberg,251,Innsbruck inner,12,Vorarlberg outer,10,2,5,2,0,16,7,9,0,0,171,37,68,30,7,388,164,133,52,8
+25,Innsbruck,2,Tyrol,251,Innsbruck inner,21,Tyrol inner,317,50,97,60,18,441,113,141,82,18,439,74,131,83,19,627,148,190,125,33
+25,Innsbruck,2,Tyrol,251,Innsbruck inner,22,Tyrol outer,18,3,6,3,0,28,6,11,8,3,439,74,131,83,19,627,148,190,125,33
+25,Innsbruck,3,Salzburg,251,Innsbruck inner,31,Salzburg inner,6,0,3,0,0,5,0,4,0,1,6,0,3,0,0,5,0,4,0,1
+25,Innsbruck,4,Upper Austria,251,Innsbruck inner,41,Upper Austria inner,71,10,32,10,1,53,20,17,11,2,88,11,37,14,1,75,33,22,14,3
+25,Innsbruck,4,Upper Austria,251,Innsbruck inner,42,Upper Austria outer,8,0,1,3,0,15,12,2,1,0,88,11,37,14,1,75,33,22,14,3
+25,Innsbruck,5,Lower Austria,251,Innsbruck inner,51,Lower Austria inner,6,1,3,1,1,37,6,16,12,0,14,4,7,2,1,64,7,23,18,2
+25,Innsbruck,5,Lower Austria,251,Innsbruck inner,52,Lower Austria outer,6,2,3,1,0,14,1,3,2,1,14,4,7,2,1,64,7,23,18,2
+25,Innsbruck,7,Burgenland,251,Innsbruck inner,71,Burgenland inner,9,2,3,2,0,23,5,8,4,0,10,2,3,3,0,24,5,9,4,0
+25,Innsbruck,7,Burgenland,251,Innsbruck inner,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,10,2,3,3,0,24,5,9,4,0
+25,Innsbruck,8,Styria,251,Innsbruck inner,81,Styria inner,14,1,2,3,3,26,12,4,6,4,16,2,2,4,3,29,13,4,7,5
+25,Innsbruck,8,Styria,251,Innsbruck inner,82,Styria outer,0,0,0,0,0,3,1,0,1,1,16,2,2,4,3,29,13,4,7,5
+25,Innsbruck,9,Carinthia,251,Innsbruck inner,91,Carinthia inner,34,2,11,8,4,26,7,4,8,4,51,5,15,13,6,45,12,8,13,6
+25,Innsbruck,9,Carinthia,251,Innsbruck inner,92,Carinthia outer,11,1,4,2,2,17,5,4,4,1,51,5,15,13,6,45,12,8,13,6
+25,Innsbruck,21,Vienna,251,Innsbruck inner,211,Vienna inner,444,102,173,81,23,677,197,276,103,37,515,118,195,94,24,765,230,297,120,42
+25,Innsbruck,21,Vienna,251,Innsbruck inner,212,Vienna outer,25,5,5,4,0,32,9,8,8,3,515,118,195,94,24,765,230,297,120,42
+25,Innsbruck,22,Graz,251,Innsbruck inner,221,Graz inner,75,20,25,14,3,126,42,37,22,12,101,24,34,20,4,148,49,44,23,16
+25,Innsbruck,22,Graz,251,Innsbruck inner,222,Graz outer,9,1,4,2,0,10,2,2,1,3,101,24,34,20,4,148,49,44,23,16
+25,Innsbruck,23,Linz,251,Innsbruck inner,231,Linz inner,51,12,22,9,3,89,29,37,9,3,68,17,27,14,3,127,43,52,12,6
+25,Innsbruck,23,Linz,251,Innsbruck inner,232,Linz outer,6,2,2,1,0,31,13,12,2,1,68,17,27,14,3,127,43,52,12,6
+25,Innsbruck,24,Salzburg,251,Innsbruck inner,241,Salzburg inner,81,16,34,17,4,149,42,70,18,8,120,25,50,22,8,197,58,87,26,11
+25,Innsbruck,24,Salzburg,251,Innsbruck inner,242,Salzburg outer,28,9,12,4,2,39,15,15,4,2,120,25,50,22,8,197,58,87,26,11
+25,Innsbruck,25,Innsbruck,251,Innsbruck inner,251,Innsbruck inner,4069,741,1234,891,272,5090,1025,1537,1055,407,6045,1110,1839,1289,409,7638,1559,2344,1572,578
+25,Innsbruck,25,Innsbruck,251,Innsbruck inner,252,Innsbruck outer,817,139,257,171,68,1010,173,327,244,53,6045,1110,1839,1289,409,7638,1559,2344,1572,578
+25,Innsbruck,26,Klagenfurt,251,Innsbruck inner,261,Klagenfurt inner,26,4,12,4,1,39,5,21,7,3,30,4,13,6,1,49,6,23,9,4
+25,Innsbruck,26,Klagenfurt,251,Innsbruck inner,262,Klagenfurt outer,4,0,1,2,0,6,1,2,2,0,30,4,13,6,1,49,6,23,9,4
+25,Innsbruck,30,rural rest,251,Innsbruck inner,30,rural rest,1306,266,415,233,99,1803,500,567,333,132,1788,367,536,324,116,2402,623,727,461,180
+25,Innsbruck,1,Vorarlberg,252,Innsbruck outer,11,Vorarlberg inner,10,2,2,4,0,26,3,4,8,1,171,37,68,30,7,388,164,133,52,8
+25,Innsbruck,1,Vorarlberg,252,Innsbruck outer,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,171,37,68,30,7,388,164,133,52,8
+25,Innsbruck,2,Tyrol,252,Innsbruck outer,21,Tyrol inner,89,18,24,16,1,152,29,35,35,10,439,74,131,83,19,627,148,190,125,33
+25,Innsbruck,2,Tyrol,252,Innsbruck outer,22,Tyrol outer,15,3,4,4,0,6,0,3,0,2,439,74,131,83,19,627,148,190,125,33
+25,Innsbruck,3,Salzburg,252,Innsbruck outer,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,6,0,3,0,0,5,0,4,0,1
+25,Innsbruck,4,Upper Austria,252,Innsbruck outer,41,Upper Austria inner,9,1,4,1,0,7,1,3,2,1,88,11,37,14,1,75,33,22,14,3
+25,Innsbruck,4,Upper Austria,252,Innsbruck outer,42,Upper Austria outer,0,0,0,0,0,0,0,0,0,0,88,11,37,14,1,75,33,22,14,3
+25,Innsbruck,5,Lower Austria,252,Innsbruck outer,51,Lower Austria inner,0,0,0,0,0,4,0,3,0,1,14,4,7,2,1,64,7,23,18,2
+25,Innsbruck,5,Lower Austria,252,Innsbruck outer,52,Lower Austria outer,2,1,1,0,0,9,0,1,4,0,14,4,7,2,1,64,7,23,18,2
+25,Innsbruck,7,Burgenland,252,Innsbruck outer,71,Burgenland inner,1,0,0,1,0,1,0,1,0,0,10,2,3,3,0,24,5,9,4,0
+25,Innsbruck,7,Burgenland,252,Innsbruck outer,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,10,2,3,3,0,24,5,9,4,0
+25,Innsbruck,8,Styria,252,Innsbruck outer,81,Styria inner,1,1,0,0,0,0,0,0,0,0,16,2,2,4,3,29,13,4,7,5
+25,Innsbruck,8,Styria,252,Innsbruck outer,82,Styria outer,1,0,0,1,0,0,0,0,0,0,16,2,2,4,3,29,13,4,7,5
+25,Innsbruck,9,Carinthia,252,Innsbruck outer,91,Carinthia inner,5,2,0,2,0,1,0,0,1,0,51,5,15,13,6,45,12,8,13,6
+25,Innsbruck,9,Carinthia,252,Innsbruck outer,92,Carinthia outer,1,0,0,1,0,1,0,0,0,1,51,5,15,13,6,45,12,8,13,6
+25,Innsbruck,21,Vienna,252,Innsbruck outer,211,Vienna inner,31,10,12,7,1,48,23,13,5,2,515,118,195,94,24,765,230,297,120,42
+25,Innsbruck,21,Vienna,252,Innsbruck outer,212,Vienna outer,15,1,5,2,0,8,1,0,4,0,515,118,195,94,24,765,230,297,120,42
+25,Innsbruck,22,Graz,252,Innsbruck outer,221,Graz inner,15,2,4,4,1,8,3,3,0,1,101,24,34,20,4,148,49,44,23,16
+25,Innsbruck,22,Graz,252,Innsbruck outer,222,Graz outer,2,1,1,0,0,4,2,2,0,0,101,24,34,20,4,148,49,44,23,16
+25,Innsbruck,23,Linz,252,Innsbruck outer,231,Linz inner,9,2,2,4,0,5,1,3,1,0,68,17,27,14,3,127,43,52,12,6
+25,Innsbruck,23,Linz,252,Innsbruck outer,232,Linz outer,2,1,1,0,0,2,0,0,0,2,68,17,27,14,3,127,43,52,12,6
+25,Innsbruck,24,Salzburg,252,Innsbruck outer,241,Salzburg inner,11,0,4,1,2,7,0,2,3,1,120,25,50,22,8,197,58,87,26,11
+25,Innsbruck,24,Salzburg,252,Innsbruck outer,242,Salzburg outer,0,0,0,0,0,2,1,0,1,0,120,25,50,22,8,197,58,87,26,11
+25,Innsbruck,25,Innsbruck,252,Innsbruck outer,251,Innsbruck inner,693,140,216,147,46,970,234,291,190,74,6045,1110,1839,1289,409,7638,1559,2344,1572,578
+25,Innsbruck,25,Innsbruck,252,Innsbruck outer,252,Innsbruck outer,466,90,132,80,23,568,127,189,83,44,6045,1110,1839,1289,409,7638,1559,2344,1572,578
+25,Innsbruck,26,Klagenfurt,252,Innsbruck outer,261,Klagenfurt inner,0,0,0,0,0,3,0,0,0,0,30,4,13,6,1,49,6,23,9,4
+25,Innsbruck,26,Klagenfurt,252,Innsbruck outer,262,Klagenfurt outer,0,0,0,0,0,1,0,0,0,1,30,4,13,6,1,49,6,23,9,4
+25,Innsbruck,30,rural rest,252,Innsbruck outer,30,rural rest,482,101,121,91,17,599,123,160,128,48,1788,367,536,324,116,2402,623,727,461,180
+26,Klagenfurt,1,Vorarlberg,261,Klagenfurt inner,11,Vorarlberg inner,12,2,4,3,2,25,8,3,10,0,17,2,8,3,3,30,8,7,11,0
+26,Klagenfurt,1,Vorarlberg,261,Klagenfurt inner,12,Vorarlberg outer,0,0,0,0,0,0,0,0,0,0,17,2,8,3,3,30,8,7,11,0
+26,Klagenfurt,2,Tyrol,261,Klagenfurt inner,21,Tyrol inner,8,0,2,4,1,15,8,5,0,0,8,0,2,4,1,23,11,6,2,1
+26,Klagenfurt,2,Tyrol,261,Klagenfurt inner,22,Tyrol outer,0,0,0,0,0,0,0,0,0,0,8,0,2,4,1,23,11,6,2,1
+26,Klagenfurt,3,Salzburg,261,Klagenfurt inner,31,Salzburg inner,3,0,3,0,0,2,0,0,0,0,3,0,3,0,0,2,0,0,0,0
+26,Klagenfurt,4,Upper Austria,261,Klagenfurt inner,41,Upper Austria inner,18,3,8,3,2,24,9,9,4,0,23,3,10,4,2,30,10,12,5,1
+26,Klagenfurt,4,Upper Austria,261,Klagenfurt inner,42,Upper Austria outer,4,0,1,1,0,1,0,1,0,0,23,3,10,4,2,30,10,12,5,1
+26,Klagenfurt,5,Lower Austria,261,Klagenfurt inner,51,Lower Austria inner,3,0,2,0,1,16,2,7,2,3,11,0,4,1,2,25,5,8,4,5
+26,Klagenfurt,5,Lower Austria,261,Klagenfurt inner,52,Lower Austria outer,4,0,1,0,0,4,2,0,1,0,11,0,4,1,2,25,5,8,4,5
+26,Klagenfurt,7,Burgenland,261,Klagenfurt inner,71,Burgenland inner,13,2,3,3,0,17,1,9,4,0,19,2,5,5,1,19,1,9,5,0
+26,Klagenfurt,7,Burgenland,261,Klagenfurt inner,72,Burgenland outer,0,0,0,0,0,1,0,0,1,0,19,2,5,5,1,19,1,9,5,0
+26,Klagenfurt,8,Styria,261,Klagenfurt inner,81,Styria inner,30,11,10,5,1,41,19,15,2,3,54,14,23,6,4,58,25,18,3,5
+26,Klagenfurt,8,Styria,261,Klagenfurt inner,82,Styria outer,12,0,6,1,2,8,1,3,0,1,54,14,23,6,4,58,25,18,3,5
+26,Klagenfurt,9,Carinthia,261,Klagenfurt inner,91,Carinthia inner,198,43,46,60,15,295,69,91,48,25,373,67,105,94,28,524,131,143,94,54
+26,Klagenfurt,9,Carinthia,261,Klagenfurt inner,92,Carinthia outer,69,11,19,12,7,97,22,27,22,10,373,67,105,94,28,524,131,143,94,54
+26,Klagenfurt,21,Vienna,261,Klagenfurt inner,211,Vienna inner,462,135,194,68,17,642,272,193,73,27,606,172,249,100,23,852,353,257,99,40
+26,Klagenfurt,21,Vienna,261,Klagenfurt inner,212,Vienna outer,25,1,10,4,2,34,8,9,7,3,606,172,249,100,23,852,353,257,99,40
+26,Klagenfurt,22,Graz,261,Klagenfurt inner,221,Graz inner,203,73,81,23,5,327,183,75,38,7,267,91,105,34,8,452,250,100,53,13
+26,Klagenfurt,22,Graz,261,Klagenfurt inner,222,Graz outer,7,3,2,1,0,22,3,5,7,2,267,91,105,34,8,452,250,100,53,13
+26,Klagenfurt,23,Linz,261,Klagenfurt inner,231,Linz inner,24,5,9,3,1,34,6,16,4,0,46,12,14,6,2,52,9,24,10,0
+26,Klagenfurt,23,Linz,261,Klagenfurt inner,232,Linz outer,10,3,2,2,0,7,1,4,2,0,46,12,14,6,2,52,9,24,10,0
+26,Klagenfurt,24,Salzburg,261,Klagenfurt inner,241,Salzburg inner,32,8,8,6,3,37,7,15,5,5,48,14,13,9,3,61,13,18,9,11
+26,Klagenfurt,24,Salzburg,261,Klagenfurt inner,242,Salzburg outer,3,1,0,2,0,13,3,2,1,3,48,14,13,9,3,61,13,18,9,11
+26,Klagenfurt,25,Innsbruck,261,Klagenfurt inner,251,Innsbruck inner,31,9,4,12,0,34,5,8,13,4,46,12,11,14,0,51,10,15,17,4
+26,Klagenfurt,25,Innsbruck,261,Klagenfurt inner,252,Innsbruck outer,5,1,3,1,0,7,2,4,1,0,46,12,11,14,0,51,10,15,17,4
+26,Klagenfurt,26,Klagenfurt,261,Klagenfurt inner,261,Klagenfurt inner,858,134,214,175,65,780,144,178,159,72,2641,415,660,552,210,2740,467,652,574,273
+26,Klagenfurt,26,Klagenfurt,261,Klagenfurt inner,262,Klagenfurt outer,812,110,195,181,68,817,112,187,178,90,2641,415,660,552,210,2740,467,652,574,273
+26,Klagenfurt,30,rural rest,261,Klagenfurt inner,30,rural rest,814,161,233,169,52,980,220,275,198,86,1325,267,348,268,86,1459,318,375,297,142
+26,Klagenfurt,1,Vorarlberg,262,Klagenfurt outer,11,Vorarlberg inner,5,0,4,0,1,4,0,3,1,0,17,2,8,3,3,30,8,7,11,0
+26,Klagenfurt,1,Vorarlberg,262,Klagenfurt outer,12,Vorarlberg outer,0,0,0,0,0,1,0,1,0,0,17,2,8,3,3,30,8,7,11,0
+26,Klagenfurt,2,Tyrol,262,Klagenfurt outer,21,Tyrol inner,0,0,0,0,0,7,2,1,2,1,8,0,2,4,1,23,11,6,2,1
+26,Klagenfurt,2,Tyrol,262,Klagenfurt outer,22,Tyrol outer,0,0,0,0,0,1,1,0,0,0,8,0,2,4,1,23,11,6,2,1
+26,Klagenfurt,3,Salzburg,262,Klagenfurt outer,31,Salzburg inner,0,0,0,0,0,0,0,0,0,0,3,0,3,0,0,2,0,0,0,0
+26,Klagenfurt,4,Upper Austria,262,Klagenfurt outer,41,Upper Austria inner,1,0,1,0,0,5,1,2,1,1,23,3,10,4,2,30,10,12,5,1
+26,Klagenfurt,4,Upper Austria,262,Klagenfurt outer,42,Upper Austria outer,0,0,0,0,0,0,0,0,0,0,23,3,10,4,2,30,10,12,5,1
+26,Klagenfurt,5,Lower Austria,262,Klagenfurt outer,51,Lower Austria inner,2,0,0,0,1,4,1,1,0,2,11,0,4,1,2,25,5,8,4,5
+26,Klagenfurt,5,Lower Austria,262,Klagenfurt outer,52,Lower Austria outer,2,0,1,1,0,1,0,0,1,0,11,0,4,1,2,25,5,8,4,5
+26,Klagenfurt,7,Burgenland,262,Klagenfurt outer,71,Burgenland inner,6,0,2,2,1,1,0,0,0,0,19,2,5,5,1,19,1,9,5,0
+26,Klagenfurt,7,Burgenland,262,Klagenfurt outer,72,Burgenland outer,0,0,0,0,0,0,0,0,0,0,19,2,5,5,1,19,1,9,5,0
+26,Klagenfurt,8,Styria,262,Klagenfurt outer,81,Styria inner,11,3,6,0,1,6,3,0,0,1,54,14,23,6,4,58,25,18,3,5
+26,Klagenfurt,8,Styria,262,Klagenfurt outer,82,Styria outer,1,0,1,0,0,3,2,0,1,0,54,14,23,6,4,58,25,18,3,5
+26,Klagenfurt,9,Carinthia,262,Klagenfurt outer,91,Carinthia inner,73,10,24,18,3,93,34,22,15,12,373,67,105,94,28,524,131,143,94,54
+26,Klagenfurt,9,Carinthia,262,Klagenfurt outer,92,Carinthia outer,33,3,16,4,3,39,6,3,9,7,373,67,105,94,28,524,131,143,94,54
+26,Klagenfurt,21,Vienna,262,Klagenfurt outer,211,Vienna inner,108,34,43,25,3,168,73,52,18,7,606,172,249,100,23,852,353,257,99,40
+26,Klagenfurt,21,Vienna,262,Klagenfurt outer,212,Vienna outer,11,2,2,3,1,8,0,3,1,3,606,172,249,100,23,852,353,257,99,40
+26,Klagenfurt,22,Graz,262,Klagenfurt outer,221,Graz inner,50,14,21,9,0,94,63,17,5,3,267,91,105,34,8,452,250,100,53,13
+26,Klagenfurt,22,Graz,262,Klagenfurt outer,222,Graz outer,7,1,1,1,3,9,1,3,3,1,267,91,105,34,8,452,250,100,53,13
+26,Klagenfurt,23,Linz,262,Klagenfurt outer,231,Linz inner,7,1,2,1,0,9,2,3,3,0,46,12,14,6,2,52,9,24,10,0
+26,Klagenfurt,23,Linz,262,Klagenfurt outer,232,Linz outer,5,3,1,0,1,2,0,1,1,0,46,12,14,6,2,52,9,24,10,0
+26,Klagenfurt,24,Salzburg,262,Klagenfurt outer,241,Salzburg inner,10,4,5,1,0,6,3,1,0,2,48,14,13,9,3,61,13,18,9,11
+26,Klagenfurt,24,Salzburg,262,Klagenfurt outer,242,Salzburg outer,3,1,0,0,0,5,0,0,3,1,48,14,13,9,3,61,13,18,9,11
+26,Klagenfurt,25,Innsbruck,262,Klagenfurt outer,251,Innsbruck inner,6,2,2,1,0,9,3,2,3,0,46,12,11,14,0,51,10,15,17,4
+26,Klagenfurt,25,Innsbruck,262,Klagenfurt outer,252,Innsbruck outer,4,0,2,0,0,1,0,1,0,0,46,12,11,14,0,51,10,15,17,4
+26,Klagenfurt,26,Klagenfurt,262,Klagenfurt outer,261,Klagenfurt inner,709,128,179,152,53,879,182,231,174,82,2641,415,660,552,210,2740,467,652,574,273
+26,Klagenfurt,26,Klagenfurt,262,Klagenfurt outer,262,Klagenfurt outer,262,43,72,44,24,264,29,56,63,29,2641,415,660,552,210,2740,467,652,574,273
+26,Klagenfurt,30,rural rest,262,Klagenfurt outer,30,rural rest,511,106,115,99,34,479,98,100,99,56,1325,267,348,268,86,1459,318,375,297,142
+30,rural rest,1,Vorarlberg,30,rural rest,11,Vorarlberg inner,1488,348,470,268,96,1634,362,472,332,147,1685,377,549,296,103,1835,395,541,366,160
+30,rural rest,1,Vorarlberg,30,rural rest,12,Vorarlberg outer,197,29,79,28,7,201,33,69,34,13,1685,377,549,296,103,1835,395,541,366,160
+30,rural rest,2,Tyrol,30,rural rest,21,Tyrol inner,1250,248,358,239,79,1575,377,424,312,123,1399,269,407,267,91,1739,419,475,339,142
+30,rural rest,2,Tyrol,30,rural rest,22,Tyrol outer,149,21,49,28,12,164,42,51,27,19,1399,269,407,267,91,1739,419,475,339,142
+30,rural rest,3,Salzburg,30,rural rest,31,Salzburg inner,407,103,111,69,19,477,94,158,90,33,407,103,111,69,19,477,94,158,90,33
+30,rural rest,4,Upper Austria,30,rural rest,41,Upper Austria inner,3082,689,827,610,149,3592,887,965,640,273,3992,872,1079,767,201,4677,1110,1261,858,361
+30,rural rest,4,Upper Austria,30,rural rest,42,Upper Austria outer,910,183,252,157,52,1085,223,296,218,88,3992,872,1079,767,201,4677,1110,1261,858,361
+30,rural rest,5,Lower Austria,30,rural rest,51,Lower Austria inner,2108,466,513,409,126,2578,566,651,500,206,3349,714,852,639,182,4199,894,1080,816,319
+30,rural rest,5,Lower Austria,30,rural rest,52,Lower Austria outer,1241,248,339,230,56,1621,328,429,316,113,3349,714,852,639,182,4199,894,1080,816,319
+30,rural rest,7,Burgenland,30,rural rest,71,Burgenland inner,1113,231,267,233,56,1591,345,396,297,149,1240,251,300,257,65,1717,362,424,325,159
+30,rural rest,7,Burgenland,30,rural rest,72,Burgenland outer,127,20,33,24,9,126,17,28,28,10,1240,251,300,257,65,1717,362,424,325,159
+30,rural rest,8,Styria,30,rural rest,81,Styria inner,1708,443,451,285,69,2075,530,503,374,165,2204,556,583,357,97,2733,667,660,476,222
+30,rural rest,8,Styria,30,rural rest,82,Styria outer,496,113,132,72,28,658,137,157,102,57,2204,556,583,357,97,2733,667,660,476,222
+30,rural rest,9,Carinthia,30,rural rest,91,Carinthia inner,1238,276,339,228,52,1305,313,330,237,113,1759,393,466,318,88,2011,428,497,377,182
+30,rural rest,9,Carinthia,30,rural rest,92,Carinthia outer,521,117,127,90,36,706,115,167,140,69,1759,393,466,318,88,2011,428,497,377,182
+30,rural rest,21,Vienna,30,rural rest,211,Vienna inner,10345,2948,3335,1879,574,11388,3756,3671,1601,738,13136,3438,4083,2429,775,14979,4421,4605,2299,1082
+30,rural rest,21,Vienna,30,rural rest,212,Vienna outer,2791,490,748,550,201,3591,665,934,698,344,13136,3438,4083,2429,775,14979,4421,4605,2299,1082
+30,rural rest,22,Graz,30,rural rest,221,Graz inner,3207,1071,1007,449,114,4565,2236,1101,483,218,4386,1314,1394,636,163,6292,2572,1539,817,360
+30,rural rest,22,Graz,30,rural rest,222,Graz outer,1179,243,387,187,49,1727,336,438,334,142,4386,1314,1394,636,163,6292,2572,1539,817,360
+30,rural rest,23,Linz,30,rural rest,231,Linz inner,2362,732,694,395,107,2979,946,914,461,171,3675,1052,1095,593,165,4662,1304,1411,788,282
+30,rural rest,23,Linz,30,rural rest,232,Linz outer,1313,320,401,198,58,1683,358,497,327,111,3675,1052,1095,593,165,4662,1304,1411,788,282
+30,rural rest,24,Salzburg,30,rural rest,241,Salzburg inner,1857,432,644,354,118,1822,488,600,320,171,2589,616,872,464,152,2634,638,872,505,219
+30,rural rest,24,Salzburg,30,rural rest,242,Salzburg outer,732,184,228,110,34,812,150,272,185,48,2589,616,872,464,152,2634,638,872,505,219
+30,rural rest,25,Innsbruck,30,rural rest,251,Innsbruck inner,1894,540,616,338,106,2548,1103,694,339,135,2369,649,769,425,124,3017,1203,837,446,167
+30,rural rest,25,Innsbruck,30,rural rest,252,Innsbruck outer,475,109,153,87,18,469,100,143,107,32,2369,649,769,425,124,3017,1203,837,446,167
+30,rural rest,26,Klagenfurt,30,rural rest,261,Klagenfurt inner,1270,268,391,270,52,1569,451,442,294,118,1830,381,545,388,83,2077,534,562,378,175
+30,rural rest,26,Klagenfurt,30,rural rest,262,Klagenfurt outer,560,113,154,118,31,508,83,120,84,57,1830,381,545,388,83,2077,534,562,378,175
+30,rural rest,30,rural rest,30,rural rest,30,rural rest,57466,12162,15689,9683,2820,67699,14196,17622,12238,5362,57466,12162,15689,9683,2820,67699,14196,17622,12238,5362

@@ -26,7 +26,7 @@
 		
 	
 		<div class="credits" style="text-align:left">
-        <p>Net migration flows between city zones and city regions in 2002 and 2013, by selected age groups.</p>
+        <p>Gross migration flows between city zones and city regions in 2002 and 2013, by selected age groups.</p>
         <p>by <a href="http://nikolasander.com"  target="_blank">Nikola Sander</a> and <a href="http://www.metropop.eu"  target="_blank">Ramon Bauer</a>, 24 June 2015 </p>
 		</div>
 	<hr>
@@ -44,25 +44,26 @@
   <script>
      var labels = {
 		2000: '2002',
-		2001: '2002 18-24',
-		2002: '2002 25-34',
-		2003: '2002 35-49',
-		2008: '2013',
-		2009: '2013 18-24',
-		2010: '2013 25-34',
-		2011: '2013 35-49',
-
+		2001: '18-24',
+		2002: '25-34',
+		2003: '35-49',
+		2004: '50-64',
+		2010: '2013',
+		2011: '18-24',
+		2012: '25-34',
+		2013: '35-49',
+		2014: '50-64',		
     	}
 
     CircularMigrationPlot({
-      data: 'netmigration-data.json',
+      data: 'cityregions-data.json',
       chart:{
         element: '#chart',
         mylayout: {
           threshold: 300,
           labelThreshold: 300,
-		  colors: ['#990000','#0099FF','#ADFF2F']  
-			  }
+		  colors: ['#669999','#0099FF', '#003D66', '#9900CC', '#990000', '#FF6600','#ADFF2F','#009900','#00CC99','#FFCC00','#006666','#800000','#000099','#007A5C']
+			},
       },
       timeline: {
         element: '#timeline',
